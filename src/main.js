@@ -78,6 +78,16 @@ function preloadResources() {
       feather.replace();
    }
 }
+const buttons = document.querySelectorAll('.sponsor-btn');
+
+buttons.forEach(btn => {
+   btn.addEventListener('click', () => {
+      const targetId = document.getElementById('contactPartners');
+      if (targetId) {
+         targetId.scrollIntoView({ behavior: 'smooth' });
+      }
+   })
+});
 
 // Call preload when page loads
 window.addEventListener('load', preloadResources);

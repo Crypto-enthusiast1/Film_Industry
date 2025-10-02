@@ -50,7 +50,7 @@ export function loadProjects() {
       const mediaHTML = project.video
          ? `
         <div class="video-container">
-          <video class="project-video" autoplay muted loop preload="auto" poster="${project.image}">
+          <video class="project-video" autoplay muted loop preload="auto" >
             <source src="${project.video}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -212,31 +212,54 @@ function handleResize() {
    }
 }
 
+// Добавьте в initCarousel() поддержку свайпа для мобильных устройств
+
 export function initCarousel() {
    const prevBtn = document.getElementById('carousel-prev');
    const nextBtn = document.getElementById('carousel-next');
-   const carouselWrapper = document.querySelector('.carousel-wrapper');
+   const viewport = document.querySelector('.carousel-viewport');
 
-   if (prevBtn) prevBtn.addEventListener('click', () => {
-      previousSlide();
+   // Навигация стрелками
+   prevBtn?.addEventListener('click', () => { previousSlide(); pauseCarousel(); });
+   nextBtn?.addEventListener('click', () => { nextSlide(); pauseCarousel(); });
+
+   // Пауза/возобновление при hover (desktop)
+   viewport?.addEventListener('mouseenter', pauseCarousel);
+   viewport?.addEventListener('mouseleave', resumeCarousel);
+
+   // Свайп для touch-устройств
+   let startX = 0;
+   let isSwiping = false;
+
+   viewport?.addEventListener('touchstart', e => {
+      startX = e.touches[0].clientX;
+      isSwiping = true;
       pauseCarousel();
+   }, { passive: true });
+
+   viewport?.addEventListener('touchmove', e => {
+      if (!isSwiping) return;
+      const diff = e.touches[0].clientX - startX;
+      if (Math.abs(diff) > 10) e.preventDefault(); // блокируем скролл страницы
+   }, { passive: false });
+
+   viewport?.addEventListener('touchend', e => {
+      if (!isSwiping) return;
+      const endX = e.changedTouches[0].clientX;
+      const diff = endX - startX;
+      isSwiping = false;
+      resumeCarousel();
+
+      if (Math.abs(diff) > 50) {
+         diff < 0 ? nextSlide() : previousSlide();
+      }
    });
 
-   if (nextBtn) nextBtn.addEventListener('click', () => {
-      nextSlide();
-      pauseCarousel();
-   });
-
-   // Pause on hover, resume on leave
-   if (carouselWrapper) {
-      carouselWrapper.addEventListener('mouseenter', pauseCarousel);
-      carouselWrapper.addEventListener('mouseleave', resumeCarousel);
-   }
-
-   // ИСПРАВЛЕНО: используем улучшенную функцию обработки ресайза
+   // Пересчёт при ресайзе
    let resizeTimeout;
-   window.addEventListener('resize', function () {
+   window.addEventListener('resize', () => {
       clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(handleResize, 250); // Debounce resize
+      resizeTimeout = setTimeout(handleResize, 250);
    });
 }
+

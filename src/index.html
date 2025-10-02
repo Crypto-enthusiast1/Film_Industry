@@ -7,9 +7,10 @@
    <title>FilmCrew Hub - Join the Movie Magic</title>
    <script src="https://cdn.tailwindcss.com"></script>
    <script src="https://unpkg.com/feather-icons"></script>
-   <script type="module" src="./scripts/navigation.js"></script>
    <script type="module" src="./main.js"></script>
-   <link rel="stylesheet" href="styles.css">
+   <!-- <link href="../dist/output.css" rel="stylesheet"> -->
+   <link href="./styles.css" rel="stylesheet">
+   <link href="./media.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-900 text-gray-100 scroll-smooth">
@@ -139,7 +140,10 @@
             </div>
             <div class="lg:w-1/2 bg-gray-800 rounded-lg overflow-hidden border border-gray-700">
                <div class="aspect-w-16 aspect-h-9 bg-gray-700 flex items-center justify-center h-64">
-                  <i data-feather="film" class="w-20 h-20 text-gray-400"></i>
+                  <video class="project-video" autoplay muted loop preload="auto" controls>
+                     <source src="./video/videoAbout.mp4" type="video/mp4">
+                     Your browser does not support the video tag.
+                  </video>
                </div>
             </div>
          </div>
@@ -245,7 +249,7 @@
                   <i data-feather="eye" class="w-8 h-8"></i>
                </div>
                <h3 class="text-lg font-bold mb-2 text-white">Global Visibility</h3>
-               <p class="text-gray-300 text-sm">Showcase your brand to international audiences across multiple platforms
+               <p class="text-black text-sm">Showcase your brand to international audiences across multiple platforms
                </p>
             </div>
             <div class="benefit-card">
@@ -253,21 +257,21 @@
                   <i data-feather="trending-up" class="w-8 h-8"></i>
                </div>
                <h3 class="text-lg font-bold mb-2 text-white">Brand Growth</h3>
-               <p class="text-gray-300 text-sm">Boost brand recognition through strategic entertainment marketing</p>
+               <p class="text-black text-sm">Boost brand recognition through strategic entertainment marketing</p>
             </div>
             <div class="benefit-card">
                <div class="benefit-icon">
                   <i data-feather="users" class="w-8 h-8"></i>
                </div>
                <h3 class="text-lg font-bold mb-2 text-white">Target Audience</h3>
-               <p class="text-gray-300 text-sm">Connect with specific demographics through tailored film content</p>
+               <p class="text-black text-sm">Connect with specific demographics through tailored film content</p>
             </div>
             <div class="benefit-card">
                <div class="benefit-icon">
                   <i data-feather="award" class="w-8 h-8"></i>
                </div>
                <h3 class="text-lg font-bold mb-2 text-white">Premium Content</h3>
-               <p class="text-gray-300 text-sm">Associate your brand with high-quality film productions</p>
+               <p class="text-black text-sm">Associate your brand with high-quality film productions</p>
             </div>
          </div>
 
@@ -277,15 +281,15 @@
                <h3 class="text-xl font-bold text-yellow-400 mb-4">Basic Package</h3>
                <div class="price text-3xl font-bold text-white mb-4">$5,000</div>
                <ul class="space-y-3 mb-6">
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Product placement in 1-2 scenes</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>End credits mention</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Social media promotion</span>
                   </li>
@@ -298,19 +302,19 @@
                <h3 class="text-xl font-bold text-yellow-400 mb-4">Premium Package</h3>
                <div class="price text-3xl font-bold text-white mb-4">$15,000</div>
                <ul class="space-y-3 mb-6">
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Featured product placement</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Opening & closing credits</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Behind-the-scenes content</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Premiere event invitations</span>
                   </li>
@@ -322,19 +326,19 @@
                <h3 class="text-xl font-bold text-yellow-400 mb-4">Enterprise Package</h3>
                <div class="price text-3xl font-bold text-white mb-4">Custom</div>
                <ul class="space-y-3 mb-6">
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Custom integration</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Multiple film projects</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Dedicated account manager</span>
                   </li>
-                  <li class="flex items-start text-gray-300">
+                  <li class="flex items-start text-black">
                      <i data-feather="check" class="text-yellow-500 mr-2 mt-1 flex-shrink-0 w-4 h-4"></i>
                      <span>Performance analytics</span>
                   </li>
@@ -344,17 +348,21 @@
          </div>
 
          <!-- Contact Form -->
-         <div class="bg-gray-800 rounded-xl p-8 border border-gray-700 shadow-2xl">
+         <div id="contactPartners" class="bg-gray-800 rounded-xl p-8 border border-gray-700 shadow-2xl">
             <h3 class="text-2xl font-bold mb-6 text-center text-white">Ready to Partner With Us?</h3>
             <form class="grid md:grid-cols-2 gap-6" id="sponsor-form">
                <div class="space-y-4">
-                  <input type="text" placeholder="Company Name" class="form-input bg-gray-700" required>
-                  <input type="text" placeholder="Your Name" class="form-input bg-gray-700" required>
-                  <input type="email" placeholder="Business Email" class="form-input bg-gray-700" required>
-                  <input type="tel" placeholder="Phone Number" class="form-input bg-gray-700" required>
+                  <input type="text" name="Company" placeholder="Company Name" class="form-input bg-gray-700"
+                     autocomplete="Company" required>
+                  <input type="text" name="FullName" placeholder="Your Name" class="form-input bg-gray-700"
+                     autocomplete="Name" required>
+                  <input type="email" name="email" placeholder="Business Email" class="form-input bg-gray-700"
+                     autocomplete="email" required>
+                  <input type="tel" name="PhoneNumber" placeholder="Phone Number" class="form-input bg-gray-700"
+                     autocomplete="phone" required>
                </div>
                <div class="space-y-4">
-                  <select class="form-input bg-gray-700" required>
+                  <select class="form-input bg-gray-700" name="Options" required>
                      <option value="">Select Package</option>
                      <option value="basic">Basic Package - $5,000</option>
                      <option value="premium">Premium Package - $15,000</option>
@@ -391,7 +399,7 @@
                learn more? We're here to help you start your journey in the film industry.</p>
          </div>
 
-         <div class="grid lg:grid-cols-2 gap-16">
+         <div class="grid_Contact_Form grid lg:grid-cols-2 gap-16">
             <!-- Contact Form -->
             <div class="contact-form-container">
                <div
@@ -402,11 +410,13 @@
                   </h3>
                   <form class="space-y-6" id="contact-form">
                      <div class="grid md:grid-cols-2 gap-4">
-                        <input type="text" placeholder="First Name" class="form-input bg-gray-700" required>
-                        <input type="text" placeholder="Last Name" class="form-input bg-gray-700" required>
+                        <input type="text" placeholder="First Name" class="form-input bg-gray-700" name="FirstName"
+                           required>
+                        <input type="text" placeholder="Last Name" class="form-input bg-gray-700" name="LastName"
+                           required>
                      </div>
                      <input type="email" placeholder="Email Address" class="form-input bg-gray-700" required>
-                     <select class="form-input bg-gray-700" required>
+                     <select class="form-input bg-gray-700" name="Options" required>
                         <option value="">I'm interested in...</option>
                         <option value="actor">Becoming an actor</option>
                         <option value="extra">Joining as an extra</option>
@@ -432,10 +442,10 @@
                      <div class="contact-icon">
                         <i data-feather="map-pin" class="w-6 h-6"></i>
                      </div>
-                     <div>
-                        <h4 class="font-bold mb-2 text-white">Visit Our Studio</h4>
-                        <p class="text-gray-300">123 Film Street, Creative Quarter</p>
-                        <p class="text-gray-300">Kyiv, Ukraine 01001</p>
+                     <div class="contact-text">
+                        <h4 class="font-bold mb-2 text-black">Visit Our Studio</h4>
+                        <p class="text-black">123 Film Street, Creative Quarter</p>
+                        <p class="text-black">Kyiv, Ukraine 01001</p>
                      </div>
                   </div>
 
@@ -443,10 +453,10 @@
                      <div class="contact-icon">
                         <i data-feather="phone" class="w-6 h-6"></i>
                      </div>
-                     <div>
-                        <h4 class="font-bold mb-2 text-white">Call Us</h4>
-                        <p class="text-gray-300">+380 12 345 6789</p>
-                        <p class="text-gray-300 text-sm">Mon-Fri, 9:00 AM - 6:00 PM</p>
+                     <div class="contact-text">
+                        <h4 class="font-bold mb-2 text-black">Call Us</h4>
+                        <p class="text-black">+380 12 345 6789</p>
+                        <p class="text-black text-sm">Mon-Fri, 9:00 AM - 6:00 PM</p>
                      </div>
                   </div>
 
@@ -454,10 +464,10 @@
                      <div class="contact-icon">
                         <i data-feather="mail" class="w-6 h-6"></i>
                      </div>
-                     <div>
-                        <h4 class="font-bold mb-2 text-white">Email Us</h4>
-                        <p class="text-gray-300">casting@filmcrewhub.com</p>
-                        <p class="text-gray-300">info@filmcrewhub.com</p>
+                     <div class="contact-text">
+                        <h4 class="font-bold mb-2 text-black">Email Us</h4>
+                        <p class="text-black">casting@filmcrewhub.com</p>
+                        <p class="text-black">info@filmcrewhub.com</p>
                      </div>
                   </div>
                </div>
@@ -489,19 +499,19 @@
                <div class="grid grid-cols-2 gap-4">
                   <div class="stat-card">
                      <div class="text-2xl font-bold text-yellow-400">50+</div>
-                     <div class="text-sm text-gray-300">Films Produced</div>
+                     <div class="text-sm text-black">Films Produced</div>
                   </div>
                   <div class="stat-card">
                      <div class="text-2xl font-bold text-yellow-400">200+</div>
-                     <div class="text-sm text-gray-300">Actors Discovered</div>
+                     <div class="text-sm text-black">Actors Discovered</div>
                   </div>
                   <div class="stat-card">
                      <div class="text-2xl font-bold text-yellow-400">15+</div>
-                     <div class="text-sm text-gray-300">Awards Won</div>
+                     <div class="text-sm text-black">Awards Won</div>
                   </div>
                   <div class="stat-card">
                      <div class="text-2xl font-bold text-yellow-400">5M+</div>
-                     <div class="text-sm text-gray-300">Views Reached</div>
+                     <div class="text-sm text-black">Views Reached</div>
                   </div>
                </div>
             </div>
