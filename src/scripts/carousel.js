@@ -46,7 +46,6 @@ export function loadProjects() {
       const projectCard = document.createElement('div');
       projectCard.className = 'project-card';
 
-      // Если есть видео — вставляем видео, иначе картинку
       const mediaHTML = project.video
          ? `
         <div class="video-container">
@@ -103,7 +102,6 @@ export function loadProjects() {
 }
 
 
-// ИСПРАВЛЕНО: более точный расчет позиции карусели
 export function updateCarouselPosition() {
    const carousel = document.getElementById('projects-carousel');
    if (!carousel) return;
@@ -111,7 +109,6 @@ export function updateCarouselPosition() {
    const card = carousel.querySelector('.project-card');
    if (!card) return;
 
-   // ИСПРАВЛЕНО: используем фиксированные значения для более точного расчета
    const cardWidth = 280; // Фиксированная ширина из CSS
    const gap = 24; // Gap между карточками из CSS
 
@@ -120,7 +117,6 @@ export function updateCarouselPosition() {
 
    carousel.style.transform = `translateX(${translateX}px)`;
 
-   // Обновляем индикаторы
    const indicators = document.querySelectorAll('.carousel-indicator');
    indicators.forEach((indicator, i) => {
       indicator.classList.toggle('active', i === currentSlide);
