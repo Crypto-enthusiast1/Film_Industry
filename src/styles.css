@@ -1322,7 +1322,7 @@ html {
    border-radius: var(--radius-lg);
    max-width: 1024px;
    width: 100%;
-   max-height: 100vh;
+   max-height: 85vh;
    overflow-y: auto;
    position: relative;
    z-index: 10;
