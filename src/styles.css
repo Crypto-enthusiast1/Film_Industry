@@ -924,9 +924,8 @@ html {
 .carousel-viewport {
    overflow-x: hidden;
    overflow-y: visible;
-   /* разрешаем вертикальное переполнение для hover */
    width: 1226px;
-   padding: 15px 0;
+   padding: 15px 0 15px 10px;
    position: relative;
 }
 
@@ -945,11 +944,8 @@ html {
    box-shadow: var(--shadow-lg);
    transition: all var(--duration-normal) var(--ease-standard);
    border: 1px solid var(--color-card-border);
-
    flex: 0 0 auto;
-   /* карточка больше не жёстко фиксирована */
-   width: clamp(200px, 80%, 280px);
-   /* адаптивная ширина */
+   width: 280px;
    z-index: 1;
 }
 

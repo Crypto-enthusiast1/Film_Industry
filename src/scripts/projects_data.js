@@ -5,7 +5,7 @@ const ProjectsData = [
       genre: 'Crime Thriller',
       location: 'Kyiv, Ukraine',
       description: 'A group of skilled thieves plan the perfect heist, but when things go wrong, they must outsmart both the police and a ruthless crime boss to survive the night.',
-      video: './src/video/video1.mp4',
+      video: './video/video1.mp4',
       director: 'John Doe',
       shootingDates: 'March 15 - May 30, 2025',
       roles: [
@@ -21,7 +21,7 @@ const ProjectsData = [
       genre: 'Historical Drama',
       location: 'Lviv, Ukraine',
       description: 'Set in the final summer before Ukraine\'s independence, this coming-of-age story follows a group of friends navigating love, politics, and personal growth during a time of great change.',
-      video: './src/video/video2.mp4',
+      video: './video/video2.mp4',
       director: 'Maria Kovalenko',
       shootingDates: 'June 1 - August 15, 2025',
       roles: [
@@ -37,7 +37,7 @@ const ProjectsData = [
       genre: 'Sci-Fi',
       location: 'Odesa, Ukraine',
       description: 'In a dystopian future where dreams can be recorded and sold, a young woman discovers a dangerous secret hidden in her subconscious that could change the world.',
-      video: './src/video/video3.mp4',
+      video: './video/video3.mp4',
       director: 'Alex Petrov',
       shootingDates: 'September 1 - November 30, 2025',
       roles: [
@@ -53,7 +53,7 @@ const ProjectsData = [
       genre: 'Horror',
       location: 'Kharkiv, Ukraine',
       description: 'A paranormal investigation team explores abandoned Soviet-era buildings, uncovering terrifying secrets that should have remained buried.',
-      video: './src/video/video4.mp4',
+      video: './video/video4.mp4',
       director: 'Viktor Shevchenko',
       shootingDates: 'October 15 - December 20, 2025',
       roles: [
