@@ -1,13 +1,13 @@
 const ProjectsData = [
    {
       id: 'midnight-heist',
-      title: 'The Midnight Heist',
-      genre: 'Crime Thriller',
-      location: 'Kyiv, Ukraine',
-      description: 'A group of skilled thieves plan the perfect heist, but when things go wrong, they must outsmart both the police and a ruthless crime boss to survive the night.',
-      video: './video/video1.mp4',
-      director: 'John Doe',
-      shootingDates: 'March 15 - May 30, 2025',
+      title: 'Paradise',
+      genre: 'Fantasy',
+      location: 'Bruxelles, Belgium',
+      description: 'Their world has turned upside down and promises to kill. The world they called Paradise. A full and carefree life. Where work is a prize in the lottery. Where simple rules are: eat normally, drink normally, play, move, rest, but don\'t read, don\'t write. Only the main character, Alexander, knows that paradise is a spaceship. All his life he carries a heavy burden of knowledge about this day. It is for this reason that his father secretly taught and passed on knowledge. Only he alone will be able to fulfill his mission. If he defeats the elite, who, having learned about the knowledge, will call him a heretic and send him to the fertilizer.',
+      video: './video/video5.mp4',
+      director: 'Oleksandr Kot',
+      shootingDates: '2025-2026 year',
       roles: [
          { name: 'Lead Actor (Male, 25-35)', status: 'available' },
          { name: 'Lead Actress (Female, 25-35)', status: 'taken' },
@@ -61,6 +61,22 @@ const ProjectsData = [
          { name: 'Paranormal Expert (25-35)', status: 'available' },
          { name: 'Camera Operator (20-30)', status: 'taken' },
          { name: 'Extras (Spirits & Locals)', status: 'available' }
+      ]
+   },
+   {
+      id: 'midnight-heist',
+      title: 'The Midnight Heist',
+      genre: 'Crime Thriller',
+      location: 'Kyiv, Ukraine',
+      description: 'A group of skilled thieves plan the perfect heist, but when things go wrong, they must outsmart both the police and a ruthless crime boss to survive the night.',
+      video: './video/video1.mp4',
+      director: 'John Doe',
+      shootingDates: 'March 15 - May 30, 2025',
+      roles: [
+         { name: 'Lead Actor (Male, 25-35)', status: 'available' },
+         { name: 'Lead Actress (Female, 25-35)', status: 'taken' },
+         { name: 'Supporting Role (Any, 40-60)', status: 'available' },
+         { name: 'Extras (Any age)', status: 'available' }
       ]
    },
    {

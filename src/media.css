@@ -15,6 +15,16 @@
    }
 }
 
+@media (min-width: 1361px) and (max-width: 1535px) {
+   .carousel-prev {
+      left: -40px
+   }
+
+   .carousel-next {
+      right: -50px;
+   }
+}
+
 @media (min-width: 1024px) and (max-width: 1360px) {
    .container {
       max-width: var(--container-lg);
