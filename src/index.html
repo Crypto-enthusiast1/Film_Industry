@@ -8,6 +8,7 @@
    <script src="https://cdn.tailwindcss.com"></script>
    <script src="https://unpkg.com/feather-icons"></script>
    <script type="module" src="./main.js"></script>
+   <script src="https://cdn.web3forms.com/web3forms.js" defer></script>
    <!-- <link href="../dist/output.css" rel="stylesheet"> -->
    <link href="./styles.css" rel="stylesheet">
    <link href="./media.css" rel="stylesheet">
@@ -350,32 +351,41 @@
          <!-- Contact Form -->
          <div id="contactPartners" class="bg-gray-800 rounded-xl p-8 border border-gray-700 shadow-2xl">
             <h3 class="text-2xl font-bold mb-6 text-center text-white">Ready to Partner With Us?</h3>
-            <form class="grid md:grid-cols-2 gap-6" id="sponsor-form">
+            <form id="sponsor-form" method="POST" action="https://api.web3forms.com/submit"
+               class="grid md:grid-cols-2 gap-6">
+               <!-- Web3Forms скрытые поля -->
+               <input type="hidden" name="access_key" value="8a1437ed-efe7-4b6a-862c-3c2aeaea9849" />
+               <input type="hidden" name="subject" value="🎬 У вас новая заявка" />
+
                <div class="space-y-4">
-                  <input type="text" name="Company" placeholder="Company Name" class="form-input bg-gray-700"
-                     autocomplete="Company" required>
-                  <input type="text" name="FullName" placeholder="Your Name" class="form-input bg-gray-700"
-                     autocomplete="Name" required>
-                  <input type="email" name="email" placeholder="Business Email" class="form-input bg-gray-700"
-                     autocomplete="email" required>
-                  <input type="tel" name="PhoneNumber" placeholder="Phone Number" class="form-input bg-gray-700"
-                     autocomplete="phone" required>
+                  <input name="company" type="text" placeholder="Company Name" class="form-input bg-gray-700"
+                     autocomplete="organization" required />
+                  <input name="name" type="text" placeholder="Your Name" class="form-input bg-gray-700"
+                     autocomplete="name" required />
+                  <input name="email" type="email" placeholder="Business Email" class="form-input bg-gray-700"
+                     autocomplete="email" required />
+                  <input name="phone" type="tel" placeholder="Phone Number" class="form-input bg-gray-700"
+                     autocomplete="tel" required />
                </div>
+
                <div class="space-y-4">
-                  <select class="form-input bg-gray-700" name="Options" required>
+                  <select name="package" class="form-input bg-gray-700" required>
                      <option value="">Select Package</option>
-                     <option value="basic">Basic Package - $5,000</option>
-                     <option value="premium">Premium Package - $15,000</option>
-                     <option value="enterprise">Enterprise Package - Custom</option>
+                     <option value="basic">Basic Package – $5,000</option>
+                     <option value="premium">Premium Package – $15,000</option>
+                     <option value="enterprise">Enterprise Package – Custom</option>
                   </select>
-                  <textarea placeholder="Tell us about your brand and goals..." class="form-input bg-gray-700 h-32"
-                     required></textarea>
+
+                  <textarea name="message" placeholder="Tell us about your brand and goals..."
+                     class="form-input bg-gray-700 h-32" required></textarea>
+
                   <button type="submit" class="form-button w-full">
                      <i data-feather="send" class="w-4 h-4 mr-2"></i>
                      Send Partnership Inquiry
                   </button>
                </div>
             </form>
+
          </div>
       </div>
    </section>
@@ -408,24 +418,33 @@
                      <i data-feather="mail" class="w-6 h-6 mr-3 text-yellow-400"></i>
                      Send us a Message
                   </h3>
-                  <form class="space-y-6" id="contact-form">
+                  <form id="contact-form" method="POST" action="https://api.web3forms.com/submit" class="space-y-6">
+                     <!-- Web3Forms скрытые поля -->
+                     <input type="hidden" name="access_key" value="8a1437ed-efe7-4b6a-862c-3c2aeaea9849" />
+                     <input type="hidden" name="subject" value="🎬 У вас новая заявка" />
+
                      <div class="grid md:grid-cols-2 gap-4">
-                        <input type="text" placeholder="First Name" class="form-input bg-gray-700" name="FirstName"
-                           required>
-                        <input type="text" placeholder="Last Name" class="form-input bg-gray-700" name="LastName"
-                           required>
+                        <input name="first-name" type="text" placeholder="First Name" class="form-input bg-gray-700"
+                           autocomplete="given-name" required />
+                        <input name="last-name" type="text" placeholder="Last Name" class="form-input bg-gray-700"
+                           autocomplete="family-name" required />
                      </div>
-                     <input type="email" placeholder="Email Address" class="form-input bg-gray-700" required>
-                     <select class="form-input bg-gray-700" name="Options" required>
-                        <option value="">I'm interested in...</option>
+
+                     <input name="email" type="email" placeholder="Email Address" class="form-input bg-gray-700"
+                        autocomplete="email" required />
+
+                     <select name="role" class="form-input bg-gray-700" required>
+                        <option value="">I'm interested in…</option>
                         <option value="actor">Becoming an actor</option>
                         <option value="extra">Joining as an extra</option>
                         <option value="visit">Visiting a film set</option>
                         <option value="sponsor">Sponsorship opportunities</option>
                         <option value="collaboration">Other collaboration</option>
                      </select>
-                     <textarea placeholder="Tell us more about your interest and any questions you have..."
+
+                     <textarea name="message" placeholder="Tell us more about your interest and any questions you have…"
                         class="form-input bg-gray-700 h-32" required></textarea>
+
                      <button type="submit" class="form-button w-full">
                         <i data-feather="send" class="w-4 h-4 mr-2"></i>
                         Send Message
@@ -603,41 +622,51 @@
                      <!-- Roles will be loaded dynamically -->
                   </div>
                </div>
-
                <div>
                   <h4 class="font-bold mb-4 text-white">Apply for This Project</h4>
-                  <form class="space-y-4" id="project-application-form">
-                     <input type="hidden" id="project-name" name="project-name">
-                     <input type="text" placeholder="Full Name" class="form-input bg-gray-700" name="Full Name"
-                        required>
-                     <input type="email" placeholder="Email" class="form-input bg-gray-700" name="email"
-                        autocomplete="email" required>
-                     <input type="tel" placeholder="Phone Number" class="form-input bg-gray-700" name="mobile phone"
-                        required>
+                  <form id="project-application-form" method="POST" action="https://api.web3forms.com/submit"
+                     class="space-y-4">
+                     <!-- Web3Forms скрытые поля -->
+                     <input type="hidden" name="access_key" value="8a1437ed-efe7-4b6a-862c-3c2aeaea9849" />
+                     <input type="hidden" name="subject" value="🎬 У вас новая заявка" />
 
-                     <!-- ВАЖНО: уникальный id, опции наполняются из JS -->
-                     <select class="form-input bg-gray-700" id="modal-role-select" name="role" required>
+                     <input id="project-name" name="project-name" type="hidden" autocomplete="off" />
+
+                     <input name="name" type="text" placeholder="Full Name" class="form-input bg-gray-700"
+                        autocomplete="name" required />
+
+                     <input name="email" type="email" placeholder="Email" class="form-input bg-gray-700"
+                        autocomplete="email" required />
+
+                     <input name="phone" type="tel" placeholder="Phone Number" class="form-input bg-gray-700"
+                        autocomplete="tel" required />
+
+                     <select id="modal-role-select" name="role" class="form-input bg-gray-700" required>
                         <option value="">Select Role</option>
+                        <!-- Варианты наполняются скриптом -->
                      </select>
 
-                     <textarea placeholder="Why are you interested in this role?" class="form-input bg-gray-700 h-24"
-                        name="textarea" required></textarea>
+                     <textarea name="message" placeholder="Why are you interested in this role?"
+                        class="form-input bg-gray-700 h-24" required></textarea>
 
-                     <div class=" flex items-center">
-                        <input type="checkbox" id="audition-consent" class="mr-2" required>
-                        <label for="audition-consent" class="text-sm text-black">I agree to submit an audition video
-                           if required</label>
+                     <div class="flex items-center">
+                        <input id="audition-consent" type="checkbox" class="mr-2" required />
+                        <label for="audition-consent" class="text-sm text-black">
+                           I agree to submit an audition video if required
+                        </label>
                      </div>
 
-                     <button type="submit" class="form-button w-full">Submit Application</button>
+                     <button type="submit" class="form-button w-full">
+                        Submit Application
+                     </button>
                   </form>
+
                </div>
 
             </div>
          </div>
       </div>
    </div>
-
    <!-- Projects Admin Panel (Hidden by default) -->
    <div id="admin-panel" class="admin-panel" style="display: none;">
       <div class="admin-content">

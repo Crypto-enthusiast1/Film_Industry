@@ -1,5 +1,3 @@
-// ИСПРАВЛЕННЫЙ JS код для карусели - решение проблемы с количеством карточек
-
 import ProjectsData from './projects_data.js';
 
 // Carousel state

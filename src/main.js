@@ -1,19 +1,20 @@
 import { initMobileMenu, initLanguageSelector, initSmoothScrolling, initBackToTop } from './scripts/navigation.js';
 import { initModal } from './scripts/modal.js';
-import { initForms } from './scripts/forms.js';
 import { initCarousel, loadProjects, startCarouselAutoplay } from './scripts/carousel.js';
 import { loadProjectsFromStorage, toggleAdminPanel } from './scripts/admin.js';
 import { debounce } from './scripts/utils.js';
+import { initForms } from './scripts/forms-secure.js';
+import { showNotification } from './scripts/utils.js';      // ← добавили
+import { closeModal } from './scripts/modal.js';             // ← добавили
 
 // Initialize Feather Icons when DOM is loaded
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
    feather.replace();
    initializeComponents();
    loadProjects();
-   // startCarouselAutoplay();
+   //   startCarouselAutoplay();
 });
 
-// Initialize all components
 function initializeComponents() {
    initMobileMenu();
    initLanguageSelector();
@@ -23,71 +24,63 @@ function initializeComponents() {
    initModal();
    initCarousel();
 
-   // Admin panel shortcut (Ctrl+Alt+A)
-   document.addEventListener('keydown', function (e) {
+   document.addEventListener('keydown', e => {
       if (e.ctrlKey && e.altKey && e.key === 'a') {
          toggleAdminPanel();
       }
    });
+
+   // Web3Forms initialization
+   if (typeof Web3Forms !== 'undefined') {
+      Web3Forms({
+         formSelector: '#sponsor-form, #contact-form, #project-application-form',
+         access_key: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
+         redirect: false,          // отключаем редирект
+         onSuccess: ({ form }) => {
+            showNotification('Заявка успешно отправлена!', 'success');
+            form.reset();
+            if (form.id === 'project-application-form') {
+               closeModal();
+            }
+         },
+         onError: () => {
+            showNotification('Ошибка отправки формы', 'error');
+         }
+      });
+   }
 }
 
-// Load projects from storage on startup
 loadProjectsFromStorage();
 
-// Header scroll effect
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
    const header = document.querySelector('header');
-   if (window.scrollY > 100) {
-      header.classList.add('bg-opacity-95');
-   } else {
-      header.classList.remove('bg-opacity-95');
-   }
+   header.classList.toggle('bg-opacity-95', window.scrollY > 100);
 });
 
-// Intersection Observer for animations
-const observerOptions = {
-   threshold: 0.1,
-   rootMargin: '0px 0px -50px 0px'
-};
-
-const observer = new IntersectionObserver(function (entries) {
+const observer = new IntersectionObserver((entries) => {
    entries.forEach(entry => {
       if (entry.isIntersecting) {
          entry.target.classList.add('animate-fade-in-up');
       }
    });
-}, observerOptions);
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-// Observe elements for animation
-document.addEventListener('DOMContentLoaded', function () {
-   const animateElements = document.querySelectorAll('.step-number, h2, h3, .benefit-card, .sponsor-package');
-   animateElements.forEach(el => observer.observe(el));
+document.addEventListener('DOMContentLoaded', () => {
+   document.querySelectorAll('.step-number, h2, h3, .benefit-card, .sponsor-package')
+      .forEach(el => observer.observe(el));
 });
 
-// Performance optimization: Debounce scroll events
-const debouncedScrollHandler = debounce(function () {
-   // Handle scroll events here if needed
-}, 16); // ~60fps
-
+const debouncedScrollHandler = debounce(() => { }, 16);
 window.addEventListener('scroll', debouncedScrollHandler);
 
-// Preload critical resources
 function preloadResources() {
-   // Preload feather icons
-   if (typeof feather !== 'undefined') {
-      feather.replace();
-   }
+   if (typeof feather !== 'undefined') feather.replace();
 }
-const buttons = document.querySelectorAll('.sponsor-btn');
-
-buttons.forEach(btn => {
-   btn.addEventListener('click', () => {
-      const targetId = document.getElementById('contactPartners');
-      if (targetId) {
-         targetId.scrollIntoView({ behavior: 'smooth' });
-      }
-   })
-});
-
-// Call preload when page loads
 window.addEventListener('load', preloadResources);
+
+document.querySelectorAll('.sponsor-btn').forEach(btn => {
+   btn.addEventListener('click', () => {
+      const target = document.getElementById('contactPartners');
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+   });
+});
