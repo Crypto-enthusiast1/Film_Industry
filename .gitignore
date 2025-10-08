@@ -19,4 +19,6 @@ yarn-error.log*
 Thumbs.db
 # VSCode
 .vscode/
-parcel-cache/
+
+# Parcel cache
+.parcel-cache/
