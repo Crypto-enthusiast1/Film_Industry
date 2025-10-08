@@ -34,7 +34,7 @@ function initializeComponents() {
    if (typeof Web3Forms !== 'undefined') {
       Web3Forms({
          formSelector: '#sponsor-form, #contact-form, #project-application-form',
-         access_key: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
+         access_key: process.env.API_KEY,
          redirect: false,          // отключаем редирект
          onSuccess: ({ form }) => {
             showNotification('Заявка успешно отправлена!', 'success');
