@@ -1,6 +1,6 @@
-6119
+6136
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\ts-interface-checker\dist\util.d.ts134039044788116502 0
-49C:\Users\Ulitka\Desktop\FilmIndustry\package.json134044238825600764 0
+49C:\Users\Ulitka\Desktop\FilmIndustry\package.json134044309893568790 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\accelerometer.js134039044762305599 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\corePlugins.js134039044853332847 0
 61C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\any-promise134039044836961228 1
@@ -12,20 +12,21 @@
 94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\through2\node_modules\string_decoder\LICENSE134039076740356409 0
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\browserslist\LICENSE134039044692559694 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\workers\lib\backend.js134044223339216865 0
-68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.package-lock.json134044223851270459 0
+68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.package-lock.json134044305021314476 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\LK.js134039044952616205 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\namer-default\package.json134044223378918806 0
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\is-glob\index.js134039044698774952 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\binary-extensions\package.json134039044750335579 0
 59C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\commander134039044786406519 1
+93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\config.js134044271609974778 0
 114C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\through2\node_modules\readable-stream\lib\_stream_passthrough.js134039076740506426 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\InternalConfig.js134044223641709904 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_possible_constructor_return.mjs134044223822590441 0
-54C:\Users\Ulitka\Desktop\FilmIndustry\package-lock.json134044223848940446 0
+54C:\Users\Ulitka\Desktop\FilmIndustry\package-lock.json134044304989721739 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\eventsource.js134039044915675600 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-load-config\src\options.js134039044750885600 0
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\processor.d.ts.map134039044842001250 0
-47C:\Users\Ulitka\Desktop\FilmIndustry\.gitignore134039083133959409 0
+47C:\Users\Ulitka\Desktop\FilmIndustry\.gitignore134044276227149453 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\node-addon-api\napi.h134044223458040748 0
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\readdirp\index.d.ts134039044759715594 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@pkgjs\parseargs\examples\ordered-options.mjs134039044807821771 0
@@ -36,9 +37,9 @@
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\normalize-path\LICENSE134039044735335848 0
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\term-size\vendor134044223339456865 1
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\jackspeak\dist\esm\parse-args.d.ts134039044833261274 0
-41C:\Users\Ulitka\Desktop\FilmIndustry\dist134044241604480426 1
+41C:\Users\Ulitka\Desktop\FilmIndustry\dist134044310104589172 1
 61C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\path-scurry134039044812941756 1
-40C:\Users\Ulitka\Desktop\FilmIndustry\src134043438408642300 1
+40C:\Users\Ulitka\Desktop\FilmIndustry\src134044271718910126 1
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\is-core-module\index.js134039044748385569 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\common-targets134044223771796737 1
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\node_path\y\bbb\index.js134039044845382843 0
@@ -56,23 +57,17 @@
 105C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.umd.js134039044768195607 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\node-gyp-build-optional-packages\index.js134044223286745817 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc134044223691574556 0
-49C:\Users\Ulitka\Desktop\FilmIndustry\node_modules134044223842060439 1
+49C:\Users\Ulitka\Desktop\FilmIndustry\node_modules134044304976971667 1
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_async_iterator.mjs134044223805781482 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\signal-exit\dist\cjs\index.d.ts134039044832531266 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi\package.json134039044731630091 0
 74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\core\postinstall.js134044223458480738 0
 62C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\chokidar\lib134039044780171244 1
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\locales\de.json134039076788627747 0
-85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_array_like_to_array134044223748597375 1
-103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\flatten-map.d.cts.map134039044819131856 0
-68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\chrome-trace-event134044223360133289 1
-86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_wrap_async_generator134044223796474713 1
-74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\path-is-absolute\license134039076739956382 0
-88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\ansi-styles134039044754555614 1
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\string-width-cjs\node_modules\strip-ansi134039044754505572 1
 55C:\Users\Ulitka\Desktop\FilmIndustry\tailwind.config.js134039076511383388 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\link-rel-prefetch.js134039044952486202 0
-57C:\Users\Ulitka\Desktop\FilmIndustry\src\video\video2.mp4134038813824261363 0
+57C:\Users\Ulitka\Desktop\FilmIndustry\src\video\video2.mp4134038814029850454 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\readers\sync.d.ts134039044852192858 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\TV.js134039044971184377 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\module_dir\zmodules\bbb\package.json134039044860292879 0
@@ -84,12 +79,22 @@
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\emoji-regex\text.js134039044764995586 0
 94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\scrollintoview.js134039044964616265 0
 60C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\braces\lib134039044779171231 1
+71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\function-bind\.github134039044789416573 1
+90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\public\default-config.js134039044857422903 0
+70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi\index.d.ts134039044755065627 0
+102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\through2\node_modules\readable-stream\passthrough.js134039076745686397 0
+82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_call_super.cjs134044223488065006 0
+45C:\Users\Ulitka\Desktop\FilmIndustry\src\.env134044274826447012 0
+99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\string-width-cjs\node_modules\ansi-regex\index.js134039044698794948 0
+84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_create_super.cjs134044223549715460 0
+55C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\xtend134039076743966377 1
+85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\asmjs.js134039044839841248 0
 60C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\carousel.js134042448315420010 0
 102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\error-overlay\src\effects\stackTraceLimit.js134044223536105424 0
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\baz134039044860322857 1
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\clone\package.json134044223291185803 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\packager-js\src\dev-prelude.js134044223385058755 0
-46C:\Users\Ulitka\Desktop\FilmIndustry\src\video134042314478137649 1
+46C:\Users\Ulitka\Desktop\FilmIndustry\src\video134044262929221159 1
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\type-fest\source\utilities.d.ts134044223551335476 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\type-fest\ts41\pascal-case.d.ts134044223534085454 0
 98C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\babelErrorUtils.js134044223378368793 0
@@ -105,11 +110,11 @@
 74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\thenify-all\package.json134039044699194955 0
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\same_names\foo134039044852512899 1
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\util-deprecate\node.js134039044754725593 0
-51C:\Users\Ulitka\Desktop\FilmIndustry\src\index.html134044229843176472 0
+51C:\Users\Ulitka\Desktop\FilmIndustry\src\index.html134044260905928366 0
 50C:\Users\Ulitka\Desktop\FilmIndustry\src\input.css134043424836389470 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\runtime-js\src134044223537415433 1
 74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\cli\help134039044876806779 1
-48C:\Users\Ulitka\Desktop\FilmIndustry\src\main.js134042513078525788 0
+48C:\Users\Ulitka\Desktop\FilmIndustry\src\main.js134044274322159957 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\RE.js134039044963066325 0
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\parcel\src\cli.js134044223388878759 0
 77C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\utils\fs.d.ts134039044841921347 0
@@ -158,7 +163,7 @@
 62C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\navigation.js134038121825517344 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\cli\build\utils.js134039044904860317 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\reporter-dev-server\src\serverErrors.js134044223485114980 0
-51C:\Users\Ulitka\Desktop\FilmIndustry\src\styles.css134044180087162974 0
+51C:\Users\Ulitka\Desktop\FilmIndustry\src\styles.css134044245433034240 0
 102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\string-width\package.json134039044736505649 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_ts_metadata.mjs134044223823300460 0
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\other_path134039044858692863 1
@@ -174,7 +179,7 @@
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\xhtmlsmil.js134039044981815700 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\ordered-binary\.nyc_output134044223388248758 1
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\package.json134039044838121262 0
-57C:\Users\Ulitka\Desktop\FilmIndustry\src\video\video4.mp4134038814029850454 0
+57C:\Users\Ulitka\Desktop\FilmIndustry\src\video\video4.mp4134038813824261363 0
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\reusify\.github\workflows134039044793591775 1
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\which\CHANGELOG.md134039044756535575 0
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fastq\test\test.js134039044769515589 0
@@ -197,7 +202,7 @@
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\ts-interface-checker\dist\index.js134039044774520819 0
 117C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\through2\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md134039076747136392 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_name_tdz_error\package.json134044223768646603 0
-64C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\forms-secure.js134043204728242061 0
+64C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\forms-secure.js134044308573605748 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\urlsearchparams.js134039044971884318 0
 59C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\term-size134044223379088783 1
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\hasown\package.json134039044754675610 0
@@ -216,7 +221,7 @@
 121C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.cmd134044223824510448 0
 64C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\balanced-match134039044751835594 1
 65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\json5\README.md134044223469235696 0
-65C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\projects_data.js134044082296233504 0
+65C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\projects_data.js134044267503331447 0
 57C:\Users\Ulitka\Desktop\FilmIndustry\src\scripts\utils.js134038121916286235 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\build\lib\typings\yargs-parser-types.js134039076770852201 0
 61C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss\lib134039044851172850 1
@@ -230,6 +235,7 @@
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\prettier.config.js134039044898600319 0
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\lib\core.js134039044825782357 0
 63C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\helpers134039076796337765 1
+96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\package.json134044271610114810 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\esm\util\elideImportEquals.js134039044831561257 0
 54C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin134044223824390467 1
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\json5\lib\index.d.ts134044223499195439 0
@@ -241,7 +247,7 @@
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\browser.mjs134039076796007751 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\graph\src\index.js134044223518945452 0
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-js\LICENSE134039044699124969 0
-55C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@lmdb134044223842020471 1
+55C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@lmdb134044304976601656 1
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\locales\pt.json134039076793647804 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\feature-flags134044223407544787 1
 107C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\css-container-queries-style.js134039044886796782 0
@@ -263,7 +269,7 @@
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\parser\traverser\util.js134039044885856809 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_write_only_error.cjs134044223631399904 0
 59C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@mischnic134044223272899114 1
-67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@msgpackr-extract134044223842030451 1
+67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@msgpackr-extract134044304976481646 1
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@lezer\common\dist134044223497345448 1
 58C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib134039044681809670 1
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-js\parser.js134039044765255606 0
@@ -271,7 +277,7 @@
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\ignore.d.ts134039044852602845 0
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\safe-buffer\LICENSE134039076741076454 0
 57C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\isarray134039076742106396 1
-57C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel134044223842060439 1
+57C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel134044304976471646 1
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\utils\pattern.js134039044828898180 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\worker.js134044223770676592 0
 56C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@pkgjs134039044681649698 1
@@ -280,7 +286,7 @@
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\minimatch\dist\commonjs\ast.js134039044758225605 0
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\picocolors\package.json134039044750505596 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-import\lib\load-content.js134043416651489036 0
-54C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc134044223842060439 1
+54C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc134044304976441624 1
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\multirepo\lerna.json134039044859732862 0
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\shebang-command\license134039044690899774 0
 74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs-parser\LICENSE.txt134039076746376411 0
@@ -349,6 +355,12 @@
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\css-text-indent.js134039044903540317 0
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_call_super.mjs134044223806581500 0
 58C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\chokidar134039044794731776 1
+85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_array_like_to_array134044223748597375 1
+103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\flatten-map.d.cts.map134039044819131856 0
+68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\chrome-trace-event134044223360133289 1
+86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_wrap_async_generator134044223796474713 1
+74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\path-is-absolute\license134039076739956382 0
+88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\ansi-styles134039044754555614 1
 55C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\cliui134039076745126394 1
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\index.js134039076740086393 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\portals.js134039044961796227 0
@@ -407,13 +419,11 @@
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\types-internal\src\SemverRange.js134044223489234999 0
 53C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dlv134039044753675599 1
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\peers134039044880216781 1
-56C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv134044223384978741 1
-89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\parseDependency.js134039044894450341 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\value-parser\index.d.ts134039044908420317 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\resolveOptions.js134044223715256521 0
 63C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\LICENSE134039076738416401 0
 104C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_class_static_private_field_update.js134044223691594568 0
-63C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand134044223388648738 1
+63C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand134044271608784850 1
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\camelcase-css\README.md134039044768035599 0
 65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dlv\dist\dlv.js134039044772295585 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\compressor-raw\src\RawCompressor.js134044223372448781 0
@@ -559,6 +569,7 @@
 103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\emoji-regex\es2015\text.js134039044779161234 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\types\TokenProcessor.d.ts134039044897120325 0
 57C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\is-glob134039044747975581 1
+76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules134044271608794827 1
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\build\lib\validation.js134039076747596385 0
 101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi-cjs\node_modules\emoji-regex\package.json134039044692549691 0
 74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\is-core-module\core.json134039044766355677 0
@@ -820,6 +831,8 @@
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\non-secure\index.js134039044797191775 0
 62C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\run-parallel134039044747995579 1
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\http2.js134039044933616872 0
+75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\markdown-ansi\src134044223339446868 1
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\SECURITY.md134044271615714789 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\minimatch\dist\esm\index.d.ts134039044851402868 0
 65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\shebang-command134039044744005599 1
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\responsive.js134039044900840318 0
@@ -900,6 +913,7 @@
 94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\foreground-child\dist\esm\proxy-signals.d.ts134039044838551278 0
 59C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\core134044223493575063 1
 107C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\node_modules\postcss-import\lib\join-layer.js134043416650719008 0
+96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\CHANGELOG.md134044271610504888 0
 59C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\untildify134039076743096395 1
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\untildify\package.json134039076739706371 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\update-browserslist-db134039044774910848 1
@@ -940,15 +954,6 @@
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\eastasianwidth\eastasianwidth.js134039044697864973 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs-parser\build\lib\string-utils.js134039076742466394 0
 56C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrappy134039076740676397 1
-71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\function-bind\.github134039044789416573 1
-90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\public\default-config.js134039044857422903 0
-70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\wrap-ansi\index.d.ts134039044755065627 0
-102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\through2\node_modules\readable-stream\passthrough.js134039076745686397 0
-99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\string-width-cjs\node_modules\ansi-regex\index.js134039044698794948 0
-85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_to_consumable_array134044223787907282 1
-84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_create_super.cjs134044223549715460 0
-55C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\xtend134039076743966377 1
-85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\asmjs.js134039044839841248 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\parcel\node_modules\commander\esm.mjs134044223508195438 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\util\getNonTypeIdentifiers.js134039044846662853 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\autoprefixer\lib\hacks\text-decoration.js134039044855632865 0
@@ -1039,7 +1044,7 @@
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\normalize-range\package.json134039044692389659 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\locales\th.json134039076793987772 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\transformers\JSXTransformer.js134039044859352836 0
-65C:\Users\Ulitka\Desktop\FilmIndustry\dist\background.dea1fdbc.png134044241603840472 0
+65C:\Users\Ulitka\Desktop\FilmIndustry\dist\background.dea1fdbc.png134044310104099180 0
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\node_modules\emoji-regex\es2015\index.js134039076744606420 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\async\index.browser.cjs134039044699444970 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\yargs\node_modules\ansi-regex134039076741826404 1
@@ -1264,6 +1269,7 @@
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\alt-sa.js134039044831091289 0
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\escapeCommas.js134039044859642856 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\util\parseGlob.js134039044894500328 0
+87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\lib134044271615884802 1
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\node-addon-api\napi-inl.h134044223381628736 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\y18n\build\lib\cjs.js134039076740556404 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\y18n\build\lib\platform-shims134039076742776394 1
@@ -1834,6 +1840,7 @@
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\negateValue.js134039044891260327 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\parseAnimationValue.js134039044893580341 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\lib\normalizeTailwindDirectives.js134039044892520320 0
+89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\util\parseDependency.js134039044894450341 0
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\other_path\root.js134039044858692863 0
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\jiti\dist\babel.js134039044835971304 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lmdb134044223353113298 1
@@ -1888,6 +1895,7 @@
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\lib\setupContextUtils.js134039044901320336 0
 98C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\lib\evaluateTailwindFunctions.js134039044860282838 0
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dict\dict.txt134044223736923531 0
+102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\lib\env-options.js134044271610024823 0
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\lib\generateRules.js134039044871866774 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\copyfiles\node_modules\brace-expansion134039076741486411 1
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\module_dir134039044853282865 1
@@ -1902,7 +1910,6 @@
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\packager-js\src\helpers.js134044223502825425 0
 60C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\semver\bin134044223551635440 1
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\src\lib\sharedState.js134039044903050331 0
-67C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.ca4b45f3.css134044241603870460 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\error-overlay\src\utils\getPrettyURL.js134044223390238753 0
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\value-parser134039044906890326 1
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\vibration.js134039044972814315 0
@@ -2011,6 +2018,7 @@
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\value-parser\walk.js134039044905210318 0
 106C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_initializer_define_property\package.json134044223775516599 0
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\util\applyImportantSelector.js134039044825372373 0
+102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\lib\cli-options.js134044271609874794 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\resolve\test\resolver\dot_main\index.js134039044846752944 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\util\bigSign.js134039044831571265 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\css-optional-pseudo.js134039044899040327 0
@@ -2111,6 +2119,7 @@
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\react-refresh\package.json134044223385028763 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\lib\load-config.js134039044890330336 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\sucrase\dist\types\identifyShadowedGlobals.d.ts134039044891430306 0
+86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\lib134044271610744824 1
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\serializer.js134044223715606532 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\tailwindcss\lib\lib\normalizeTailwindDirectives.js134039044892330342 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\MY.js134039044957576209 0
@@ -2166,11 +2175,10 @@
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\ID.js134039044936887395 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\clipboard.js134039044868106780 0
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\msgpackr-extract\bin134044223287605806 1
-99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_check_private_redeclaration.cjs134044223491365012 0
-101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\supports-preserve-symlinks-flag\.github\FUNDING.yml134039044784901226 0
-69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\CHANGELOG.md134044223350253279 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\watcher\src\windows\WindowsBackend.cc134044223520165448 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\provider.d.ts134039044846972875 0
+99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_check_private_redeclaration.cjs134044223491365012 0
+101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\supports-preserve-symlinks-flag\.github\FUNDING.yml134039044784901226 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\any-promise\register\bluebird.d.ts134039044832481271 0
 98C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_initializer_warning_helper.mjs134044223821730462 0
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\supports-color\index.js134044223284475802 0
@@ -3048,6 +3056,7 @@
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-import\lib\parse-styles.js134043416651558965 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\css-containment.js134039044887156763 0
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\baseline-browser-mapping\dist\index.d.ts134039044783841230 0
+71C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.094de328.css.map134044310104359175 0
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\download-lmdb-prebuilds134044223824380446 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss-import\lib\process-content.js134043416651578966 0
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\fs\LICENSE134044223347953319 0
@@ -3072,6 +3081,7 @@
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss\lib\list.d.ts134039044841881262 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\cliui\node_modules\emoji-regex\index.js134039076740266399 0
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss\lib\list.js134039044788216535 0
+96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\README-es.md134044271611044814 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\postcss\lib\no-work-result.d.ts134039044842021249 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\core\package.json134044223392208775 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\imagecapture.js134039044938251202 0
@@ -3208,6 +3218,7 @@
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\object-assign\index.js134039044698024961 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nullthrows\nullthrows.d.ts134044223347383292 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\minimatch\dist\esm\ast.d.ts.map134039044831041265 0
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\lib\main.js134044271610064791 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\lib\BundleGraph.js134044223575155284 0
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nullthrows\package.json134044223290835808 0
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nullthrows\README.md134044223375618765 0
@@ -3270,6 +3281,8 @@
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\index.d.cts134039044784661234 0
 65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\index.js134039044795571788 0
 64C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\LICENSE134039044692379660 0
+125C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-gnu.node134044223632629919 0
+91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\LICENSE134044271609824780 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\msgpackr-extract\package.json134044223344033290 0
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\non-secure134039044831931283 1
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\nanoid\README.md134039044825182345 0
@@ -3538,6 +3551,7 @@
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lz4\lib\lz4.h134044223711046503 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lz4\lib\lz4file.c134044223547925450 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lz4\lib\lz4frame_static.h134044223711226510 0
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\CHANGELOG.md134044271610244797 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lz4\lib\Makefile134044223517845440 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lz4\lib\README.md134044223729163517 0
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\utils\index.d.ts134039044822092346 0
@@ -3576,7 +3590,6 @@
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c134044223540775449 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_object_spread.cjs134044223623879917 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.h134044223696244587 0
-66C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.bf2be57e.js134044241603890456 0
 69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\json5\lib\util.d.ts134044223512345419 0
 107C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\url-scroll-to-text-fragment.js134039044971794320 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\baseline-browser-mapping\dist\index.cjs134039044731930077 0
@@ -3695,7 +3708,7 @@
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\glob.js134039044699584956 0
 64C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\jiti\README.md134039044840081263 0
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\chokidar\index.js134039044778971242 0
-62C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core134044223775406586 1
+62C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core134044271608794827 1
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\jiti\register.js134039044839751282 0
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\jiti\dist\babel.d.ts134039044840521249 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\matchers\matcher.js134039044818181779 0
@@ -3816,10 +3829,10 @@
 115C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\src\_class_check_private_static_field_descriptor.mjs134044223809871483 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\bin.mjs134039044851132848 0
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\glob.d.ts134039044852172903 0
-69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\README-es.md134044223360143285 0
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.walk\out\providers\stream.js134039044789326510 0
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\glob.js.map134039044834561241 0
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\has-magic.d.ts134039044852482914 0
+101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\lib\env-options.js134044271610024823 0
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\has-magic.d.ts.map134039044835751286 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\has-magic.js134039044766275574 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\ignore.d.ts.map134039044837171285 0
@@ -3840,7 +3853,6 @@
 77C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\esm\walker.js.map134039044847442880 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\CV.js134039044905650359 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\glob.js.map134039044832471277 0
-68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\SECURITY.md134044223378858737 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\has-magic.d.ts.map134039044835441280 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\has-magic.js134039044758255583 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\glob\dist\commonjs\has-magic.js.map134039044836071255 0
@@ -3967,7 +3979,6 @@
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\readers\stream.js134039044835601258 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\readers\sync.js134039044836881253 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\async.d.ts134039044839841248 0
-69C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\package.json134044223342142730 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\filters134039044841091274 1
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\matchers134039044845642851 1
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\provider.js134039044829971263 0
@@ -3985,6 +3996,8 @@
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\escalade\sync\index.mjs134039044772015573 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\providers\filters\error.d.ts134039044841181236 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\managers\tasks.d.ts134039044852392840 0
+82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv134044271610684801 1
+93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\README.md134044271614184817 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\out\managers\tasks.js134039044837901260 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\node_modules\glob-parent134039044754575579 1
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\fast-glob\node_modules\glob-parent\CHANGELOG.md134039044750685584 0
@@ -4023,23 +4036,11 @@
 98C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\unhandledrejection.js134039044971574322 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\package.json134044223349703272 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\tea.yaml134044223389338766 0
+83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv134044271615784795 1
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\config.d.ts134044271615814784 0
+97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\node_modules\dotenv\lib\main.d.ts134044271616204780 0
+74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_identity134044223775286647 1
 77C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv-expand\lib\main.d.ts134044223384288762 0
-68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\config.d.ts134044223386768758 0
-65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\test134039076744096424 1
-89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\packager-css\src\CSSPackager.js134044223372458752 0
-92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm-threads.js134039044976685350 0
-100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\scopes.d.mts.map134039044784361234 0
-66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\config.js134044223284885811 0
-95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\gen-mapping\types\set-array.d.cts134039044736475674 0
-87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\utils\fs.d.ts134039044816561778 0
-60C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\lib134044223389598752 1
-92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\constants.js134044223490315017 0
-64C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\LICENSE134044223281285826 0
-66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\README.md134044223375298841 0
-75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\lib\cli-options.js134044223283705830 0
-75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\lib\env-options.js134044223286875791 0
-70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\lib\main.d.ts134044223392758895 0
-68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dotenv\lib\main.js134044223291531239 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_inherits\package.json134044223775456601 0
 58C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\dlv\dist134039044784551248 1
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\regions\NU.js134039044958896223 0
@@ -4106,6 +4107,7 @@
 68C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\LICENSE134039076739146385 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_to_property_key134044223788448525 1
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\package.json134039076738306444 0
+65C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\test134039076744096424 1
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\test\map.js134039076744236411 0
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\concat-map\example\map.js134039076742996420 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\commander\CHANGELOG.md134039044777731279 0
@@ -4733,6 +4735,8 @@
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm-multi-value.js134039044973514331 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm-mutable-globals.js134039044976237946 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm-reference-types.js134039044976308111 0
+89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\packager-css\src\CSSPackager.js134044223372458752 0
+92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm-threads.js134039044976685350 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wasm.js134039044976705816 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\wav.js134039044976745727 0
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\caniuse-lite\data\features\web-animation.js134039044977005740 0
@@ -4785,10 +4789,9 @@
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\base-x\LICENSE.md134044223345523334 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\node-resolver-core\lib134044223363543282 1
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\base-x\src\index.d.ts134044223367881150 0
-52C:\Users\Ulitka\Desktop\FilmIndustry\dist\index.html134044241603870460 0
+52C:\Users\Ulitka\Desktop\FilmIndustry\dist\index.html134044310104109191 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\balanced-match\.github134039044754565577 1
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\autoprefixer\data134039044853172858 1
-71C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.ca4b45f3.css.map134044241604260459 0
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\autoprefixer\lib134039044858732854 1
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\autoprefixer\lib\brackets.js134039044812811775 0
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\autoprefixer\lib\declaration.js134039044822092346 0
@@ -4872,7 +4875,6 @@
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_define_property134044223774166627 1
 77C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_export_star134044223774366581 1
 82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_get_prototype_of134044223774986616 1
-74C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_identity134044223775286647 1
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_instanceof134044223775926626 1
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_interop_require_default134044223776126619 1
 93C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_is_native_reflect_construct134044223776596591 1
@@ -4889,6 +4891,7 @@
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_skip_first_generator_next134044223779636611 1
 81C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_super_prop_base134044223782606668 1
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_tagged_template_literal134044223784472003 1
+85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_to_consumable_array134044223787907282 1
 78C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_to_primitive134044223787947267 1
 73C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\workers\lib\web134044223566213802 1
 77C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_ts_decorate134044223790253438 1
@@ -4962,6 +4965,7 @@
 102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_set\package.json134044223771126596 0
 108C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_loose_key\package.json134044223771016585 0
 109C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_loose_base\package.json134044223770846640 0
+70C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.9cce1bf2.js.map134044310104359175 0
 103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_init\package.json134044223770586619 0
 102C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_get\package.json134044223770316595 0
 110C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\_\_class_private_field_destructure\package.json134044223768836596 0
@@ -5088,6 +5092,7 @@
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_interop_require_wildcard.js134044223712656523 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_class_private_method_init.cjs134044223534675460 0
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_is_native_function.js134044223712766518 0
+96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\lib\main.d.ts134044271610794821 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_iterable_to_array.js134044223713646523 0
 94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_iterable_to_array_limit.js134044223713566540 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_iterable_to_array_limit_loose.js134044223712906543 0
@@ -5128,7 +5133,7 @@
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_unsupported_iterable_to_array.js134044223727723560 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_using_ctx.js134044223729183519 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_wrap_async_generator.js134044223730343528 0
-71C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.a992b0df.css.map134044241604190454 0
+71C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.a992b0df.css.map134044310104339199 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\esm\_write_only_error.js134044223733583548 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\packager-wasm134044223399974821 1
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\index.cjs134044223631659969 0
@@ -5146,7 +5151,6 @@
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_async_to_generator.cjs134044223408954788 0
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\node-gyp-build-optional-packages-test.cmd134044223824390467 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_await_value.cjs134044223485165002 0
-82C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_call_super.cjs134044223488065006 0
 106C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_class_apply_descriptor_destructure.cjs134044223497455441 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_class_call_check.cjs134044223511035441 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@swc\helpers\cjs\_class_name_tdz_error.cjs134044223520245453 0
@@ -5476,6 +5480,7 @@
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\diagnostic\src\diagnostic.js134044223373498752 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\README.md134044223527075437 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\BabelTransformer.js134044223392008869 0
+92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\constants.js134044223490315017 0
 87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\flow.js134044223499815460 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\transformer-babel\src\remapAstLocations.js134044223513035460 0
 131C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm-gnueabihf.node134044223621319893 0
@@ -5500,7 +5505,6 @@
 94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\src134044223676925159 1
 101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\src\lib.rs134044223677935146 0
 124C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node134044223551405471 0
-125C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-gnu.node134044223632629919 0
 126C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node134044223676385166 0
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\source-map\dist\node.js.flow134044223339046861 0
 76C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\graph\lib\Graph.js134044223505215458 0
@@ -5681,6 +5685,7 @@
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-swc\package.json134044223378758747 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-swc\src\SwcOptimizer.js134044223374308754 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-swc\lib\SwcOptimizer.js134044223359773281 0
+94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\config.d.ts134044271610694880 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-svg\package.json134044223375658769 0
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-svg\src134044223361993277 1
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\optimizer-svg\src\SVGOptimizer.js134044223369317892 0
@@ -5694,7 +5699,6 @@
 89C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\node-resolver-core\package.json134044223378688773 0
 91C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\node-resolver-core\lib\Wrapper.js134044223374298801 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\markdown-ansi\LICENSE134044223286595803 0
-75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\markdown-ansi\src134044223339446868 1
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js134044223342422728 0
 92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js134044223290685810 0
 72C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\logger\LICENSE134044223349663287 0
@@ -5767,6 +5771,8 @@
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\diagnostic\lib\diagnostic.js134044223356383292 0
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\lib134044223770486604 1
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\LICENSE134044223517925432 0
+83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\baseline-browser-mapping.cmd134039044983365812 0
+75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules134044271608794827 1
 75C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\package.json134044223771536617 0
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test134044223768276601 1
 86C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\AssetGraph.test.js134044223539635438 0
@@ -5811,7 +5817,7 @@
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\main-mjs134044223774826609 1
 117C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json134044223775346615 0
 117C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one\package.json134044223775286647 0
-67C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.a992b0df.css134044241603840472 0
+67C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.a992b0df.css134044310104099180 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\plugins\node_modules134044223633119938 1
 128C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines134044223774986616 1
 136C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\index.js134044223634929896 0
@@ -5836,6 +5842,7 @@
 103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\default-serve\package.json134044223772736599 0
 112C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json134044223772596654 0
 114C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\custom-format-infer-type\package.json134044223772276629 0
+92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\config.js134044271609974778 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\context\package.json134044223771866596 0
 110C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\config-plugin-not-found\.parcelrc134044223458490732 0
 103C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\test\fixtures\config-malformed\.parcelrc134044223374608759 0
@@ -5873,6 +5880,13 @@
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\public\MutableBundleGraph.js134044223672475153 0
 84C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\public\Symbols.js134044223730463513 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\src\public\Target.js134044223735343557 0
+90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\LICENSE134044271609824780 0
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\package.json134044271610114810 0
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\README-es.md134044271610314800 0
+92C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\README.md134044271610384798 0
+94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\SECURITY.md134044271610614800 0
+101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\lib\cli-options.js134044271609874794 0
+94C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\node_modules\dotenv\lib\main.js134044271610074812 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\lib\applyRuntimes.js134044223525705441 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\lib\AssetGraph.js134044223533785437 0
 80C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@parcel\core\lib\assetUtils.js134044223548825457 0
@@ -5978,6 +5992,8 @@
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\settings.js134039044788226546 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\types134039044819681764 1
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\utils134039044821737101 1
+95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\gen-mapping\types\set-array.d.cts134039044736475674 0
+87C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\utils\fs.d.ts134039044816561778 0
 85C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\utils\fs.js134039044774090806 0
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\types\index.d.ts134039044820251781 0
 88C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@nodelib\fs.scandir\out\types\index.js134039044783731261 0
@@ -6012,7 +6028,7 @@
 101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\binary-search.d.mts134039044839971260 0
 105C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\binary-search.d.mts.map134039044812791793 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\by-source.d.cts134039044754675610 0
-65C:\Users\Ulitka\Desktop\FilmIndustry\dist\videoAbout.2382a99b.mp4134044241604470427 0
+65C:\Users\Ulitka\Desktop\FilmIndustry\dist\videoAbout.2382a99b.mp4134044310104559144 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\flatten-map.d.mts134039044840331308 0
 95C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\resolve.d.cts134039044769555579 0
 99C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\trace-mapping\types\resolve.d.mts.map134039044829241263 0
@@ -6033,6 +6049,7 @@
 90C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\package.json134039044774200825 0
 100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\scopes.d.cts.map134039044780061255 0
 96C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\scopes.d.mts134039044820291784 0
+100C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\scopes.d.mts.map134039044784361234 0
 109C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\sourcemap-codec.d.cts.map134039044786506544 0
 101C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\strings.d.mts.map134039044798691785 0
 97C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\@jridgewell\sourcemap-codec\types\vlq.d.cts.map134039044805241770 0
@@ -6079,7 +6096,6 @@
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\autoprefixer.cmd134039044983365812 0
 71C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\autoprefixer.ps1134039044983365812 0
 79C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\baseline-browser-mapping134039044983795707 0
-83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\baseline-browser-mapping.cmd134039044983365812 0
 83C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\baseline-browser-mapping.ps1134039044983785712 0
 67C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\browserslist134039044983795707 0
 61C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\copyup134039076799047765 0
@@ -6116,5 +6132,6 @@
 66C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\sucrase.ps1134039044983835754 0
 63C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\tailwind134039044983845759 0
 70C:\Users\Ulitka\Desktop\FilmIndustry\node_modules\.bin\tailwindcss.cmd134039044983845759 0
-70C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.bf2be57e.js.map134044241604260459 0
-52C:\Users\Ulitka\Desktop\FilmIndustry\dist\output.css134044241552249521 0
+67C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.094de328.css134044310104109191 0
+66C:\Users\Ulitka\Desktop\FilmIndustry\dist\FilmIndustry.9cce1bf2.js134044310104129179 0
+52C:\Users\Ulitka\Desktop\FilmIndustry\dist\output.css134044310046153437 0

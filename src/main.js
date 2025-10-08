@@ -4,12 +4,14 @@ import { initCarousel, loadProjects, startCarouselAutoplay } from './scripts/car
 import { loadProjectsFromStorage, toggleAdminPanel } from './scripts/admin.js';
 import { debounce } from './scripts/utils.js';
 import { initForms } from './scripts/forms-secure.js';
-import { showNotification } from './scripts/utils.js';      // ← добавили
-import { closeModal } from './scripts/modal.js';             // ← добавили
+import { showNotification } from './scripts/utils.js';
+import { closeModal } from './scripts/modal.js';
+import { initEnvFields } from './scripts/env-init.js';
 
 // Initialize Feather Icons when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
    feather.replace();
+   initEnvFields();
    initializeComponents();
    loadProjects();
    //   startCarouselAutoplay();

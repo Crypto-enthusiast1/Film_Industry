@@ -1,6 +1,7 @@
 import { showNotification } from './utils.js';
 import { closeModal } from './modal.js';
 
+
 const CONFIG = {
    WEB3FORMS_ACCESS_KEY: process.env.WEB3FORMS_ACCESS_KEY,
    AIRTABLE_BASE_ID: process.env.AIRTABLE_BASE_ID,

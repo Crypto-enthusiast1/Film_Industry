@@ -5,7 +5,7 @@
       "dev": "parcel src/index.html --open",
       "build:js": "parcel build src/index.html --dist-dir dist --public-url ./",
       "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-      "copy:assets": "copyfiles src/img/* dist/img && copyfiles src/video/* dist/video",
+      "copy:assets": "copyfiles src/img/* dist && copyfiles src/video/* dist",
       "build": "npm run build:css && npm run build:js && npm run copy:assets"
    },
    "keywords": [],
@@ -19,8 +19,5 @@
       "postcss": "^8.5.6",
       "postcss-import": "^16.1.1",
       "tailwindcss": "^3.4.18"
-   },
-   "dependencies": {
-      "dotenv": "^17.2.3"
    }
 }
