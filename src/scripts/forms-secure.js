@@ -2,10 +2,10 @@ import { showNotification } from './utils.js';
 import { closeModal } from './modal.js';
 
 const CONFIG = {
-   WEB3FORMS_ACCESS_KEY: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
-   AIRTABLE_BASE_ID: 'appG9Cz7ObB9Btl73',
+   WEB3FORMS_ACCESS_KEY: process.env.WEB3FORMS_ACCESS_KEY,
+   AIRTABLE_BASE_ID: process.env.AIRTABLE_BASE_ID,
    AIRTABLE_TABLE_NAME: 'Applications',
-   AIRTABLE_API_KEY: 'patCjmZd3WXTUULE1.08b75c42d3d5ad186e50946a91c245f5fdb7e41e9ed74b8462cd146fdbb6fe6d',
+   AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
    YOUR_EMAIL: 'andrei28123@gmail.com'
 };
 
