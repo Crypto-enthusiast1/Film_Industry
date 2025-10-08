@@ -11,10 +11,10 @@ import { initEnvFields } from './scripts/env-init.js';
 // Initialize Feather Icons when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
    feather.replace();
-   initEnvFields();
+   // initEnvFields();
    initializeComponents();
    loadProjects();
-   //   startCarouselAutoplay();
+   startCarouselAutoplay();
 });
 
 function initializeComponents() {
@@ -36,7 +36,7 @@ function initializeComponents() {
    if (typeof Web3Forms !== 'undefined') {
       Web3Forms({
          formSelector: '#sponsor-form, #contact-form, #project-application-form',
-         access_key: process.env.WEB3FORMS_ACCESS_KEY,
+         access_key: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
          redirect: false,          // отключаем редирект
          onSuccess: ({ form }) => {
             showNotification('Заявка успешно отправлена!', 'success');
