@@ -55,12 +55,50 @@ export function openModal(projectId) {
 
    // Роли
    const rolesContainer = document.getElementById('modal-roles');
-   rolesContainer.innerHTML = project.roles.map(role => `
-    <div class="role-item role-${role.status}">
-      <span class="text-black">${role.name}</span>
+   rolesContainer.innerHTML = project.roles.map((role, index) => `
+  <div class="role-item role-${role.status}">
+    <div class="flex items-center justify-between w-full">
+      <span class="text-black font-semibold">${role.name}</span>
       <span class="role-status">${role.status === 'available' ? 'Available' : 'Taken'}</span>
     </div>
-  `).join('');
+    
+    <button class="description-toggle text-blue-500 text-sm mt-2 hover:text-blue-400 transition-colors w-full justify-center focus:outline-none" 
+            data-index="${index}">
+      <i data-feather="chevron-down" class="w-4 h-4 inline mr-1"></i>
+      <span class="toggle-text">Show description</span>
+    </button>
+    
+    <div class="role-description mt-2 mb-0 mx-auto bg-gray-100 rounded-lg" id="description-${index}">
+      <p class="text-black text-sm">${role.description || 'Description missing'}</p>
+    </div>
+  </div>
+`).join('');
+
+   // Добавляем обработчики событий
+   document.querySelectorAll('.description-toggle').forEach(button => {
+      button.addEventListener('click', function () {
+         const index = this.dataset.index;
+         const descriptionDiv = document.getElementById(`description-${index}`);
+         const toggleText = this.querySelector('.toggle-text');
+         const chevronIcon = this.querySelector('i[data-feather]');
+
+         if (descriptionDiv.classList.contains('show')) {
+            // Скрыть описание
+            descriptionDiv.classList.remove('show');
+            toggleText.textContent = 'Show description';
+            chevronIcon.setAttribute('data-feather', 'chevron-down');
+         } else {
+            // Показать описание
+            descriptionDiv.classList.add('show');
+            toggleText.textContent = 'Hide description';
+            chevronIcon.setAttribute('data-feather', 'chevron-up');
+         }
+
+         if (typeof feather !== 'undefined') feather.replace();
+      });
+   });
+
+   if (typeof feather !== 'undefined') feather.replace();
 
    // Селект только для доступных ролей
    const roleSelect = document.getElementById('modal-role-select');

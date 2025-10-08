@@ -336,17 +336,17 @@ textarea {
    transform: scale(1.1);
 }
 
-/* Стили для видео в модальном окне */
+
 .modal-video {
    border-radius: var(--radius-lg);
    box-shadow: var(--shadow-lg);
 }
 
-/* Адаптивность для видео */
+#modal-roles {
+   height: 340px;
+   overflow-y: auto;
+}
 
-
-
-/* Buttons */
 .btn {
    display: inline-flex;
    align-items: center;
@@ -955,6 +955,68 @@ html {
    z-index: 10;
 }
 
+.modal-description {
+   width: 100%;
+   overflow-y: auto;
+   color: black;
+}
+
+/* .role-item {
+   padding: 1rem;
+   border: 1px solid #e5e7eb;
+   border-radius: 0.5rem;
+   background-color: #f9fafb;
+} */
+
+.role-available {
+   border-color: #10b981;
+   background-color: #ecfdf5;
+}
+
+.role-taken {
+   border-color: #ef4444;
+   background-color: #fef2f2;
+}
+
+.role-status {
+   font-size: 0.875rem;
+   padding: 0.25rem 0.75rem;
+   border-radius: 9999px;
+}
+
+.role-available .role-status {
+   background-color: #10b981;
+   color: white;
+}
+
+.role-taken .role-status {
+   background-color: #ef4444;
+   color: white;
+}
+
+.role-description {
+   max-height: 0;
+   opacity: 0;
+   overflow: hidden;
+   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+   padding: 0 1rem;
+}
+
+.role-description.show {
+   max-height: 200px;
+   opacity: 1;
+   padding: 0.75rem 1rem;
+}
+
+
+.description-toggle {
+   display: flex;
+   align-items: center;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
 .carousel-prev,
 .carousel-next {
    position: absolute;
@@ -1359,6 +1421,7 @@ html {
 /* Role status styles */
 .role-item {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
    background-color: var(--color-surface);
@@ -1378,7 +1441,7 @@ html {
 }
 
 .role-status {
-   font-size: var(--font-size-xs);
+   font-size: 12px;
    font-weight: var(--font-weight-bold);
    padding: var(--space-2) var(--space-8);
    border-radius: var(--radius-sm);

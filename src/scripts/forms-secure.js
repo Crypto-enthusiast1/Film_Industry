@@ -3,9 +3,9 @@ import { closeModal } from './modal.js';
 
 const CONFIG = {
    WEB3FORMS_ACCESS_KEY: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
-   AIRTABLE_BASE_ID: 'your_base_id',
+   AIRTABLE_BASE_ID: 'appG9Cz7ObB9Btl73',
    AIRTABLE_TABLE_NAME: 'Applications',
-   AIRTABLE_API_KEY: 'your_api_key',
+   AIRTABLE_API_KEY: 'patCjmZd3WXTUULE1.08b75c42d3d5ad186e50946a91c245f5fdb7e41e9ed74b8462cd146fdbb6fe6d',
    YOUR_EMAIL: 'andrei28123@gmail.com'
 };
 
@@ -98,8 +98,7 @@ async function saveToAirtable(formData, formType) {
             'Проект': formData.get('project-name') || '',
             'Роль': formData.get('role') || '',
             'Пакет': formData.get('package') || '',
-            'Дата создания': new Date().toISOString(),
-            'Статус': 'Новая'
+            'Дата создания': new Date().toISOString()
          }
       };
 

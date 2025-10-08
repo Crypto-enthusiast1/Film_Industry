@@ -1,5 +1,5 @@
+@import "styles.css";
+@import "media.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "styles.css";
-@import "media.css";

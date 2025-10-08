@@ -1,6 +1,6 @@
 const ProjectsData = [
    {
-      id: 'midnight-heist',
+      id: 'Paradise',
       title: 'Paradise',
       genre: 'Fantasy',
       location: 'Bruxelles, Belgium',
@@ -9,21 +9,28 @@ const ProjectsData = [
       director: 'Oleksandr Kot',
       shootingDates: '2025-2026 year',
       roles: [
-         { name: 'Lead Actor (Male, 25-35)', status: 'available' },
-         { name: 'Lead Actress (Female, 25-35)', status: 'taken' },
-         { name: 'Supporting Role (Any, 40-60)', status: 'available' },
-         { name: 'Extras (Any age)', status: 'available' }
+         {
+            name: 'Main character: Alexander.<br>', description: 'Age: 35 - 45 years old <br>Gender: male <br>Character: mysterious, intelligent, responsible. <br>Carries the burden of forbidden knowledge.<br>Special skills: the ability to convey internal tension and fear.', status: 'available'
+         },
+         { name: 'Main character Alexander (childhood)<br>', description: 'Age: 8-12 years<br>Gender: male Character: smart, inquisitive, brave but hildishly naive. Carries the burden of forbidden knowledge.<br>Special skills: must be similar to adult Alexander.<br>Ability to convey internal tension and fear', status: 'taken' },
+         { name: 'Secondary character: Alexander\'s father.<br>', description: 'Age: 35-45 years old.<br>Gender: male.<br>Character: mysterious, intelligent, responsible. Carries the burden of forbidden knowledge.<br>Special skills: must be similar to Alexander, the main character, in the ability to convey internal tension and stress.', status: 'available' },
+         { name: 'Secondary role: Olena (Olexander\'s wife)<br>', description: 'Age: 30-40 years old.<br>Gender: female Body type: athletic, intelligent.<br>Character: caring, law-abiding, responsible.<br>Special skills: ability to convey fear, worry, expressive emotions in scenes.', status: 'available' },
+         { name: 'Secondary role: Agronomist.<br>', description: 'Gender: male.<br>Age: 50-70 years old.<br>Character: smart, cunning, experienced, good leader and specialist.', status: 'available' },
+         { name: 'Secondary role: Pastor.<br>', description: 'Gender: Male.<br>Age: 40–70 years old.<br>Role: Ideological center. Controls faith, rituals, morality.<br>Type: A good minister who speaks like a prophet but acts like a dictator.<br>Appearance: Neat, with soft features, may wear white or gray clothes.', status: 'available' },
+         { name: 'Secondary role: Doctor.', description: '<br>Gender: male, female.<br>Age: 60–75 years<br>Role: Responsible for the health of the population, but also hides the true causes of deaths and “epidemics”.<br>OldType: Intelligent, attentive, tired.<br>Appearance: Always in a white coat, with a sad look in his eyes.', status: 'available' },
+         { name: 'Secondary role: Cook.', description: '<br>Gender: Male, Female.<br>Age: 45–70 years.<br>Role: Responsible for distributing food, resources, and the “happiness” of people.<br>Type: Warm, sociable, a bit chubby.<br>Appearance: Smiling, speaks jokingly — “a man of the people.”', status: 'available' },
+         { name: 'Secondary role: Power engineer.<br>', description: 'Gender: male, female.<br>Age: 55–65 years.<br>Role: Controls the ship\'s power systems, knows about its true structure.<br>Type: Engineer, practitioner, thinks logically, not emotionally.<br> Appearance: Strict, wears a uniform or overalls with technical details.', status: 'available' },
       ]
    },
    {
-      id: 'summer-89',
-      title: 'Summer of \'89',
-      genre: 'Historical Drama',
-      location: 'Lviv, Ukraine',
-      description: 'Set in the final summer before Ukraine\'s independence, this coming-of-age story follows a group of friends navigating love, politics, and personal growth during a time of great change.',
+      id: 'Shadows',
+      title: 'Time of Locked Shadows',
+      genre: 'Post-apocalypse',
+      location: 'Bruxelles, Belgium',
+      description: '1963 USSR, the Soviets test a 100 megaton nuclear bomb. After successful tests, a UFO flew into the laboratory where the 200 megaton bomb was being developed. After 13 years, the UFO flew away. The Soviets fenced off the entire city and made a prison. Abnormal things are happening in the laboratory, people are dying, becoming crippled for no apparent reason.The CIA recruits a lifer and sends him to a closed city. Where he tries to survive the terrible realities of prison life and becomes the most successful collector of things left by UFOs.',
       video: './video/video2.mp4',
-      director: 'Maria Kovalenko',
-      shootingDates: 'June 1 - August 15, 2025',
+      director: 'Oleksandr Kot',
+      shootingDates: '2025-2026 year',
       roles: [
          { name: 'Young Male Lead (18-25)', status: 'available' },
          { name: 'Young Female Lead (18-25)', status: 'available' },
