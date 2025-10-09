@@ -1,5 +1,49 @@
 const ProjectsData = [
    {
+      id: 'italy',
+      title: 'Russians\' adventures in Italy',
+      genre: 'Horror',
+      location: 'Bruxelles, Belgium',
+      description: 'A Russian man has turned the head of a rich woman. And to get her and her money into his hands, he hires a hero in the clutches of the 2 Chechen and Abkhaz wars.So that he kills his mistress\'s husband.But killing a lawyer is not the same as killing innocent children in Grozny.',
+      video: './video/russianInItali.mp4',
+      director: 'Oleksandr Kot',
+      shootingDates: '2025-2026 year',
+      roles: [
+         { name: 'Investigation Team Leader (30-40)', status: 'available' },
+         { name: 'Paranormal Expert (25-35)', status: 'available' },
+         { name: 'Camera Operator (20-30)', status: 'taken' },
+         { name: 'Extras (Spirits & Locals)', status: 'available' }
+      ]
+   },
+   {
+      id: 'nerves',
+      title: 'Nerves',
+      genre: 'Thriller',
+      location: 'Bruxelles, Belgium',
+      description: 'Bandits come to the office and demand money from the boss. Ivan becomes an accidental witness and victim - he is beaten, humiliated, thrown to the floor.But at this very moment another essence awakens in him - a former fighter, a former agent, a person from the past, about which he has been silent for years.Awakened instincts take over - and the accumulated anger explodes in Ivan.',
+      video: './video/bandits.mp4',
+      director: 'Oleksandr Kot',
+      shootingDates: '2025-2026 year',
+      roles: [
+         { name: 'Main role: Ivan Secretary<br>', description: 'Gender: male, female.<br>Age: 30–45 years old.<br>Type: ordinary, inconspicuous, “office moth” — a person no one notices. Modest, complexed, a little hunched over, speaks quietly.<br>Profession: office worker in accounting or middle manager.<br>Character: calm, depressed, constantly suffers humiliation from his boss — a petty swindler who takes advantage of his silence.', status: 'available' },
+         { name: 'Minor role: Mark<br>', description: 'Age: 35-45.<br>Gender: male,female.<br>Character: Office mole', status: 'available' },
+         { name: 'Minor role: Boss<br>', description: 'Gender: male.<br>Age; 35-45.<br>Character.<br>The face of a crook,full build', status: 'available' },
+         { name: 'Secondary role:The Boss\'s wife<br>', description: 'Age:35-45.<br>Gender:female.<br>Character.A beautiful well-groomed woman', status: 'available' },
+         { name: 'Secondary role:Bandit Christophe<br>', description: 'Age:35-45.<br>Gender:male.<br>Appearance of a bandit.Athletic physically developed person', status: 'available' },
+         { name: 'Secondary role:Bandit Mont Blanc<br>', description: 'Age:35-45.<br>Gender:male.<br>Character:Appearance of a bandit. Athletic physically developed person .', status: 'available' },
+         { name: 'Secondary role:Bartender<br>', description: 'Age 45-65.<br>Gender:male,female.<br>Character:A person of age. The face of a smart experienced person', status: 'available' },
+         { name: 'Secondary role:Bartender<br>', description: 'Age: 18-25.<br>Gender: male,female', status: 'available' },
+         { name: 'Secondary role:Grandfather<br>', description: 'Age 60-70.<br>Gender: male', status: 'available' },
+         { name: 'Secondary role:Chef<br>', description: 'Age 40-60 years old.<br>Gender: male,female.<br>Character:appearance of a cook', status: 'available' },
+         { name: 'Secondary role:Officer<br>', description: 'Age 40-50.<br>Gender:male.<br>Character:A person with a representative appearance', status: 'available' },
+         { name: 'Secondary role:Policeman<br>', description: 'Age 25-50.<br>Gender:male,female', status: 'available' },
+         { name: 'Secondary role:Policeman<br>', description: 'Age 25-50.<br>Gender:male,female', status: 'available' },
+         { name: 'Secondary role:Boy<br>', description: 'Teenager.<br>Age 12-17.<br>Gender:male', status: 'available' },
+         { name: 'Secondary role:Boy<br>', description: 'Teenager.<br>Age 12-17.<br>Gender:male', status: 'available' },
+         { name: 'Secondary role:Boy<br>', description: 'Teenager.<br>Age 12-17.<br>Gender:male', status: 'available' },
+      ]
+   },
+   {
       id: 'Paradise',
       title: 'Paradise',
       genre: 'Fantasy',
@@ -36,38 +80,6 @@ const ProjectsData = [
          { name: 'Young Female Lead (18-25)', status: 'available' },
          { name: 'Older Mentor (50-65)', status: 'taken' },
          { name: 'Extras (Various ages)', status: 'available' }
-      ]
-   },
-   {
-      id: 'neon-dreams',
-      title: 'Neon Dreams',
-      genre: 'Sci-Fi',
-      location: 'Odesa, Ukraine',
-      description: 'In a dystopian future where dreams can be recorded and sold, a young woman discovers a dangerous secret hidden in her subconscious that could change the world.',
-      video: './video/video3.mp4',
-      director: 'Alex Petrov',
-      shootingDates: 'September 1 - November 30, 2025',
-      roles: [
-         { name: 'Female Lead (20-30)', status: 'available' },
-         { name: 'Male Antagonist (35-45)', status: 'available' },
-         { name: 'Tech Specialist (25-40)', status: 'taken' },
-         { name: 'Extras (Future citizens)', status: 'available' }
-      ]
-   },
-   {
-      id: 'urban-legends',
-      title: 'Urban Legends',
-      genre: 'Horror',
-      location: 'Kharkiv, Ukraine',
-      description: 'A paranormal investigation team explores abandoned Soviet-era buildings, uncovering terrifying secrets that should have remained buried.',
-      video: './video/video4.mp4',
-      director: 'Viktor Shevchenko',
-      shootingDates: 'October 15 - December 20, 2025',
-      roles: [
-         { name: 'Investigation Team Leader (30-40)', status: 'available' },
-         { name: 'Paranormal Expert (25-35)', status: 'available' },
-         { name: 'Camera Operator (20-30)', status: 'taken' },
-         { name: 'Extras (Spirits & Locals)', status: 'available' }
       ]
    },
    {

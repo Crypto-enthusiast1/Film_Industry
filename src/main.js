@@ -7,6 +7,7 @@ import { initForms } from './scripts/forms-secure.js';
 import { showNotification } from './scripts/utils.js';
 import { closeModal } from './scripts/modal.js';
 import { initEnvFields } from './scripts/env-init.js';
+import { openCertificateModal, closeCertificateModal } from './scripts/certificate-modal.js';
 
 // Initialize Feather Icons when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
    // initEnvFields();
    initializeComponents();
    loadProjects();
-   startCarouselAutoplay();
+   // startCarouselAutoplay();
 });
 
 function initializeComponents() {
@@ -86,3 +87,7 @@ document.querySelectorAll('.sponsor-btn').forEach(btn => {
       if (target) target.scrollIntoView({ behavior: 'smooth' });
    });
 });
+
+
+window.openCertificateModal = openCertificateModal;
+window.closeCertificateModal = closeCertificateModal;
