@@ -3,7 +3,6 @@ node_modules/
 
 # Сборка CSS и все артефакты сборки
 dist/
-output.css
 
 # Локальные конфиги среды
 .env
