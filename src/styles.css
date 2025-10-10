@@ -420,14 +420,70 @@ textarea {
    transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-   .certificate-modal-close {
-      top: -30px;
-      right: -10px;
-      width: 35px;
-      height: 35px;
-   }
+
+/* Контейнер виджета */
+#google_translate_element {
+   display: inline-block !important;
+   vertical-align: middle;
 }
+
+/* Кнопка перевода */
+.goog-te-gadget-simple {
+   background: #374151 !important;
+   border: 1px solid #4b5563 !important;
+   border-radius: 8px !important;
+   padding: 4px 12px !important;
+   color: #ffffff !important;
+   font-size: 14px !important;
+   line-height: 1.2 !important;
+   display: inline-flex !important;
+   align-items: center !important;
+   cursor: pointer !important;
+   transition: background 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* Hover-эффект */
+.goog-te-gadget-simple:hover {
+   background: #4b5563 !important;
+   border-color: #eab308 !important;
+}
+
+/* Скрыть служебные иконки и разделители */
+.goog-te-gadget-icon,
+.goog-te-gadget-simple img,
+.goog-te-gadget-simple span[style*="border-left"] {
+   display: none !important;
+}
+
+/* Текст внутри кнопки */
+.goog-te-gadget-simple .goog-te-menu-value,
+.goog-te-gadget-simple .goog-te-menu-value span {
+   font-size: 14px !important;
+   color: #ffffff !important;
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/* Скрыть баннер перевода (iframe или div) */
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame,
+#goog-gt-banner {
+   display: none !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed>span {
+   color: white !important;
+}
+
+body {
+   top: 0 !important;
+   position: static !important;
+}
+
+body>.skiptranslate>iframe {
+   display: none !important;
+}
+
 
 .btn {
    display: inline-flex;
@@ -1144,11 +1200,18 @@ html {
    background-color: var(--color-text-secondary);
    cursor: pointer;
    transition: all var(--duration-normal) var(--ease-standard);
+   border-width: 0;
 }
 
 .carousel-indicator.active {
    background-color: var(--color-primary);
    transform: scale(1.25);
+}
+
+#goog-gt-tt {
+   display: none !important;
+   visibility: hidden !important;
+   opacity: 0 !important;
 }
 
 .project-btn {
@@ -1664,12 +1727,6 @@ textarea:focus,
 a:focus {
    outline: var(--focus-outline);
    outline-offset: 2px;
-}
-
-/* Text selection styling */
-::selection {
-   background-color: rgba(var(--color-teal-500-rgb), 0.3);
-   color: var(--color-text);
 }
 
 ::-moz-selection {

@@ -1,42 +1,34 @@
 import ProjectsData from './projects_data.js';
 
-// Carousel state
 let currentSlide = 0;
 let carouselTimer = null;
 let isCarouselPaused = false;
 
-// ИСПРАВЛЕНО: Calculate how many slides are visible - более точный расчет
 export function getVisibleSlides() {
    const width = window.innerWidth;
-   if (width >= 1200) return 4;  // Desktop: 4 slides (ПРОВЕРЕНО)
-   if (width >= 900) return 3;   // Tablet: 3 slides
-   if (width >= 600) return 2;   // Small tablet: 2 slides
-   return 1;                     // Mobile: 1 slide
+   if (width >= 1200) return 4;
+   if (width >= 900) return 3;
+   if (width >= 600) return 2;
+   return 1;
 }
 
-// НОВАЯ ФУНКЦИЯ: точный расчет ширины контейнера для показа нужного количества карточек
 function calculateContainerWidth() {
    const visibleSlides = getVisibleSlides();
-   const cardWidth = 280; // Фиксированная ширина карточки
-   const gap = 24; // Размер gap между карточками
+   const cardWidth = 280;
+   const gap = 24;
 
-   // Ширина = (количество карточек * ширина карточки) + (промежутки между карточками)
    const totalWidth = (visibleSlides * cardWidth) + ((visibleSlides - 1) * gap);
    return totalWidth;
 }
 
-// Load projects into carousel - ИСПРАВЛЕНО
-// Load projects into carousel - ОБНОВЛЕНО для видео
 export function loadProjects() {
    const carousel = document.getElementById('projects-carousel');
    const indicators = document.getElementById('carousel-indicators');
    if (!carousel || !indicators) return;
 
-   // Очистка
    carousel.innerHTML = '';
    indicators.innerHTML = '';
 
-   // Устанавливаем ширину контейнера
    const containerWidth = calculateContainerWidth();
    carousel.style.maxWidth = `${containerWidth}px`;
 

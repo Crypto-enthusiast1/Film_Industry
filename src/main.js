@@ -1,4 +1,4 @@
-import { initMobileMenu, initLanguageSelector, initSmoothScrolling, initBackToTop } from './scripts/navigation.js';
+import { initMobileMenu, initSmoothScrolling, initBackToTop } from './scripts/navigation.js';
 import { initModal } from './scripts/modal.js';
 import { initCarousel, loadProjects, startCarouselAutoplay } from './scripts/carousel.js';
 import { loadProjectsFromStorage, toggleAdminPanel } from './scripts/admin.js';
@@ -6,21 +6,20 @@ import { debounce } from './scripts/utils.js';
 import { initForms } from './scripts/forms-secure.js';
 import { showNotification } from './scripts/utils.js';
 import { closeModal } from './scripts/modal.js';
-import { initEnvFields } from './scripts/env-init.js';
 import { openCertificateModal, closeCertificateModal } from './scripts/certificate-modal.js';
+import { disableGoogleTranslateOverlay } from './scripts/disableGoogle.js';
 
-// Initialize Feather Icons when DOM is loaded
+
 document.addEventListener('DOMContentLoaded', () => {
    feather.replace();
-   // initEnvFields();
    initializeComponents();
    loadProjects();
-   // startCarouselAutoplay();
+   startCarouselAutoplay();
+   disableGoogleTranslateOverlay();
 });
 
 function initializeComponents() {
    initMobileMenu();
-   initLanguageSelector();
    initSmoothScrolling();
    initBackToTop();
    initForms();

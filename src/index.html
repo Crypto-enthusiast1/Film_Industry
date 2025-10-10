@@ -5,12 +5,12 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>FilmCrew Hub - Join the Movie Magic</title>
-   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
    <script src="https://unpkg.com/feather-icons"></script>
    <script src="https://cdn.web3forms.com/web3forms.js" defer></script>
-   <!-- <link href="./output.css" rel="stylesheet"> -->
-   <link href="./styles.css" rel="stylesheet">
-   <link href="./media.css" rel="stylesheet">
+   <link href="./output.css" rel="stylesheet">
+   <!-- <link href="./styles.css" rel="stylesheet">
+   <link href="./media.css" rel="stylesheet"> -->
 </head>
 
 <body class="bg-gray-900 text-gray-100 scroll-smooth">
@@ -30,30 +30,7 @@
                <a href="#contact" class="nav-link text-white">Contact</a>
 
                <div class="language-selector relative">
-                  <button
-                     class="flex items-center text-white hover:text-yellow-400 transition-colors duration-300 border border-gray-600 px-3 py-2 rounded-lg bg-gray-800"
-                     id="language-btn">
-                     <i data-feather="globe" class="mr-2"></i> EN
-                     <i data-feather="chevron-down" class="ml-1 w-4 h-4"></i>
-                  </button>
-                  <div
-                     class="language-dropdown absolute hidden mt-2 py-2 w-32 bg-gray-800 rounded shadow-lg z-50 transition-all duration-300 opacity-0 transform translate-y-2 border border-gray-700">
-                     <a href="#"
-                        class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-200 text-gray-300">🇺🇦
-                        Українська</a>
-                     <a href="#"
-                        class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-200 text-gray-300">🇷🇺
-                        Русский</a>
-                     <a href="#"
-                        class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-200 text-gray-300">🇫🇷
-                        Français</a>
-                     <a href="#"
-                        class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-200 text-gray-300">🇳🇱
-                        Nederlands</a>
-                     <a href="#"
-                        class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-200 text-gray-300">🇩🇪
-                        Deutsch</a>
-                  </div>
+                  <div id="google_translate_element" class="inline-block"></div>
                </div>
             </nav>
 
@@ -80,23 +57,7 @@
 
                <div class="border-t border-gray-700 pt-4">
                   <div class="text-gray-400 text-sm mb-2">Language:</div>
-                  <div class="flex flex-wrap gap-2">
-                     <a href="#"
-                        class="px-3 py-1 bg-gray-700 rounded text-sm hover:bg-gray-600 transition-colors duration-200 text-gray-300">🇺🇦
-                        УКР</a>
-                     <a href="#"
-                        class="px-3 py-1 bg-gray-700 rounded text-sm hover:bg-gray-600 transition-colors duration-200 text-gray-300">🇷🇺
-                        РУС</a>
-                     <a href="#"
-                        class="px-3 py-1 bg-gray-700 rounded text-sm hover:bg-gray-600 transition-colors duration-200 text-gray-300">🇫🇷
-                        FR</a>
-                     <a href="#"
-                        class="px-3 py-1 bg-gray-700 rounded text-sm hover:bg-gray-600 transition-colors duration-200 text-gray-300">🇳🇱
-                        NL</a>
-                     <a href="#"
-                        class="px-3 py-1 bg-gray-700 rounded text-sm hover:bg-gray-600 transition-colors duration-200 text-gray-300">🇩🇪
-                        DE</a>
-                  </div>
+                  <div id="google_translate_element_mobile" class="inline-block"></div>
                </div>
             </div>
          </nav>
@@ -373,30 +334,43 @@
                <div class="benefit-icon">
                   <i data-feather="eye" class="w-8 h-8"></i>
                </div>
-               <h3 class="text-lg font-bold mb-2 text-white">Global Visibility</h3>
-               <p class="text-black text-sm">Showcase your brand to international audiences across multiple platforms
+               <h3 class="text-lg font-bold mb-2 text-black">Advertising in a film - your brand in the center of events
+               </h3>
+               <p class="text-black text-sm">Cinema is not just art, but a powerful tool of influence.
+                  The images that the viewer sees on the screen are remembered better than any online advertising.
+                  We will help your brand become a part of the plot and a story that will be remembered.
                </p>
             </div>
             <div class="benefit-card">
                <div class="benefit-icon">
                   <i data-feather="trending-up" class="w-8 h-8"></i>
                </div>
-               <h3 class="text-lg font-bold mb-2 text-white">Brand Growth</h3>
-               <p class="text-black text-sm">Boost brand recognition through strategic entertainment marketing</p>
+               <h3 class="text-lg font-bold mb-2 text-black">Elite drinks - product placement of the highest level</h3>
+               <p class="text-black text-sm">Imagine a hero pouring a glass of your whiskey or cognac - the camera
+                  softly focuses on the label.
+                  The drink becomes a symbol of status, taste and confidence.
+                  Your brand is associated with luxury, success and unique emotions.</p>
             </div>
             <div class="benefit-card">
                <div class="benefit-icon">
                   <i data-feather="users" class="w-8 h-8"></i>
                </div>
-               <h3 class="text-lg font-bold mb-2 text-white">Target Audience</h3>
-               <p class="text-black text-sm">Connect with specific demographics through tailored film content</p>
+               <h3 class="text-lg font-bold mb-2 text-black">Real estate as part of the plot</h3>
+               <p class="text-black text-sm"><br>Your house or apartment can become the place where the events of the
+                  film
+                  unfold. The heroes are looking for housing - and end up in your real estate.
+                  This way, the location becomes a “living decoration” and advertising that works naturally.</p>
             </div>
             <div class="benefit-card">
                <div class="benefit-icon">
                   <i data-feather="award" class="w-8 h-8"></i>
                </div>
-               <h3 class="text-lg font-bold mb-2 text-white">Premium Content</h3>
-               <p class="text-black text-sm">Associate your brand with high-quality film productions</p>
+               <h3 class="text-lg font-bold mb-2 text-black">Restaurants, offices, companies - direct film partnership
+               </h3>
+               <p class="text-black text-sm">A scene of a business meeting in your office or a romantic dinner in your
+                  restaurant.
+                  Your brand is organically woven into the plot and is remembered by the audience.
+                  This is the most effective form of advertising - without obtrusiveness, but with high prestige.</p>
             </div>
          </div>
 
@@ -812,6 +786,8 @@
       </div>
    </div>
 
+   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+   </script>
    <script type="module" src="main.js"></script>
 </body>
 

@@ -98,36 +98,7 @@ const ProjectsData = [
          { name: 'Extras (Any age)', status: 'available' }
       ]
    },
-   {
-      id: 'love-revolution',
-      title: 'Love & Revolution',
-      genre: 'Romance Drama',
-      location: 'Prague, Czech Republic',
-      description: 'During the Velvet Revolution, two young activists from opposite sides find love amidst the chaos of political change.',
-      director: 'Elena Novakova',
-      shootingDates: 'April 10 - June 25, 2025',
-      roles: [
-         { name: 'Female Revolutionary (22-28)', status: 'available' },
-         { name: 'Male Government Agent (25-32)', status: 'available' },
-         { name: 'Veteran Activist (45-55)', status: 'available' },
-         { name: 'Extras (Protesters & Citizens)', status: 'available' }
-      ]
-   },
-   {
-      id: 'arctic-expedition',
-      title: 'Arctic Expedition',
-      genre: 'Adventure Thriller',
-      location: 'Iceland',
-      description: 'A team of scientists in the Arctic discovers something that could change humanity forever, but they must survive the harsh conditions and mysterious forces pursuing them.',
-      director: 'Hans Eriksson',
-      shootingDates: 'January 5 - March 20, 2025',
-      roles: [
-         { name: 'Lead Scientist (35-45)', status: 'taken' },
-         { name: 'Survival Expert (30-40)', status: 'available' },
-         { name: 'Research Assistant (25-30)', status: 'available' },
-         { name: 'Extras (Expedition Team)', status: 'available' }
-      ]
-   }
+
 ];
 
 export default ProjectsData;
