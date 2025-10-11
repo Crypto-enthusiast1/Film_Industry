@@ -26,6 +26,7 @@ export function openModal(projectId) {
    document.getElementById('modal-location').textContent = project.location;
    document.getElementById('modal-description').textContent = project.description;
    document.getElementById('project-name').value = project.title;
+   document.getElementById('modal-sujet').textContent = project.sujet || 'Sujet missing';
 
    // Видео или картинка
    const mediaContainer = modal.querySelector('.aspect-w-16');

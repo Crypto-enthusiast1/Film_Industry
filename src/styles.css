@@ -347,6 +347,16 @@ textarea {
    overflow-y: auto;
 }
 
+#modal-sujet {
+   height: 350px;
+   overflow-y: auto;
+   white-space: pre-wrap;
+   font-family: monospace;
+   padding: 10px;
+   background: lightgray;
+   border-radius: 12px;
+}
+
 .certificat-img {
    position: relative;
    width: 320px;
