@@ -405,6 +405,107 @@ INT. BOSS’S OFFICE – DAY`,
       genre: 'Post-apocalypse',
       location: 'Bruxelles, Belgium',
       description: '1963 USSR, the Soviets test a 100 megaton nuclear bomb. After successful tests, a UFO flew into the laboratory where the 200 megaton bomb was being developed. After 13 years, the UFO flew away. The Soviets fenced off the entire city and made a prison. Abnormal things are happening in the laboratory, people are dying, becoming crippled for no apparent reason.The CIA recruits a lifer and sends him to a closed city. Where he tries to survive the terrible realities of prison life and becomes the most successful collector of things left by UFOs.',
+      sujet: `INT. ROOM – DAY
+
+Sparse dorm room. Clothes hang on a line across the room. Walls are blackened, wallpaper peeling. Two beds — one occupied, the other empty. A knock on the door.
+
+GUTALIN (O.S.)
+Rudy — any tea?
+
+A man under the blanket fusses, sits up, adjusts himself, grabs clothes from the line. He dresses in dirty prisoner’s uniform, looks around the messy table — empty bottles, cans, an ashtray. He finds a cigarette butt, stuffs it into a tube, searches for matches — none. He opens an empty pack of Soviet tea, finds nothing. He looks under the bed and pulls out a tea kettle — half-full, the tea covered in mold. He puts on boots, takes the kettle and the unlit cigarette and walks into the corridor. The corridor is dark, tiles missing, walls torn. He reaches the kitchen — ruined, piled with old stoves and a door used as a table. He fills a kettle with a little water, places it on a stove. Leaves the kitchen, passes the communal latrine where men sit. He lights the cigarette from another prisoner and returns to the kitchen.
+
+He opens the kettle — much of the moldy scum is gone.
+
+RUDY
+Bastards.
+
+He goes to another room — same filth. On the table: a liter jar with boiling liquid and two blades in it, connected to a wire leading to exposed electrical wires. Rudy disconnects the wires, removes the immersion heater. He finds a dirty mug, a spoon, scoops yellowed tea from the kettle, pours it into the mug and then into two jars through a stocking used as a strainer. He finds a sock on the line, smells it — it stinks. He crumples it into a bowl, sets it aflame as a makeshift wick to heat the cup. The water boils. He pours tea equally into two jars.
+
+GUTALIN enters.
+
+GUTALIN
+You trying to burn the place down?
+
+Rudy hands him a jar. Gutalin peers into the kettle.
+
+GUTALIN
+Like bourgeoisie with mold.
+
+He sips, lights a cigarette, offers it to Rudy, sits down, looks for his boots, finds one sock.
+
+GUTALIN
+They took the other sock.
+
+RUDY
+I peed a bit — the floor ate it. Let’s go.
+
+Rudy leaves, returns to his room, finds a lid and a flat brandy bottle, stuffs the bottle into the side of the jar and heads down the corridor. He knocks. An older ARMENIAN opens the door.
+
+ARMENIAN
+What do you want?
+
+RUDY
+(holding out the jar and bottle)
+Debt.
+
+ARMENIAN
+You know you owe me.
+
+RUDY
+I know.
+
+The Armenian disappears, then reappears at the door. Rudy snatches the jar and bottle back and continues down the corridor.
+
+
+---
+
+EXT. STREET – MORNING
+
+The street is gray, raining lightly, litter piled up. A half-abandoned factory looms in the distance. A line of dirty prisoners marches in step, guarded by a military officer who shouts commands.
+
+MILITARY OFFICER
+Left, right! Pick up your feet, you bastards! Or I’ll teach you how to walk like humans — left, right!
+
+Rudy dashes from the dorm, joins the line. Gutalin falls into step beside him.
+
+GUTALIN
+You got some? Let me take a sip. I’ll croak before we get there.
+
+RUDY
+If you drop, you’ll make more trouble for me. We have to deliver the debt.
+
+GUTALIN
+Be a man — let me have a sip.
+
+RUDY
+March! Don’t you see the new warder? Where did they drag this bitch from?
+
+A bespectacled, intellectual-looking man walks beside them — the PROFESSOR.
+
+PROFESSOR
+From Moscow. He escorted us here.
+
+RUDY
+Don’t grovel — they don’t fuck you.
+
+A voice from the ranks.
+
+PRISONER #2
+Hey Rudy, ask the professor what he’s in for!
+
+PRISONER #3
+He killed his wife — dissolved the bitch in acid. Only her mane got stuck in the pipes. They burned him for it.
+
+RUDY
+They’re just talking shit.
+
+PROFESSOR
+Ignore them. Preparing aqua regia at home isn’t a big deal.
+
+GUTALIN
+That’s it, friend. Food’s shut down. You’ll drink.
+
+The guard up front shouts. The line marches through the ruined street. At a big hole in the road the prisoners split to either side and continue marching.`,
       video: './video/video2.mp4',
       director: 'Oleksandr Kot',
       shootingDates: '2025-2026 year',
