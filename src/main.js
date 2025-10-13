@@ -1,16 +1,16 @@
 import { initMobileMenu, initSmoothScrolling, initBackToTop } from './scripts/navigation.js';
-import { initModal } from './scripts/modal.js';
+import { initModal, closeModal } from './scripts/modal.js';
 import { initCarousel, loadProjects, startCarouselAutoplay } from './scripts/carousel.js';
-import { loadProjectsFromStorage, toggleAdminPanel } from './scripts/admin.js';
 import { debounce } from './scripts/utils.js';
 import { initForms } from './scripts/forms-secure.js';
 import { showNotification } from './scripts/utils.js';
-import { closeModal } from './scripts/modal.js';
 import { openCertificateModal, closeCertificateModal } from './scripts/certificate-modal.js';
 import { disableGoogleTranslateOverlay } from './scripts/disableGoogle.js';
 
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+   await initModal();
+   await loadProjects();
    feather.replace();
    initializeComponents();
    loadProjects();
@@ -26,17 +26,11 @@ function initializeComponents() {
    initModal();
    initCarousel();
 
-   document.addEventListener('keydown', e => {
-      if (e.ctrlKey && e.altKey && e.key === 'a') {
-         toggleAdminPanel();
-      }
-   });
-
    // Web3Forms initialization
    if (typeof Web3Forms !== 'undefined') {
       Web3Forms({
          formSelector: '#sponsor-form, #contact-form, #project-application-form',
-         access_key: '8a1437ed-efe7-4b6a-862c-3c2aeaea9849',
+         access_key: process.env.WEB3FORMS_ACCESS_KEY,
          redirect: false,          // отключаем редирект
          onSuccess: ({ form }) => {
             showNotification('Заявка успешно отправлена!', 'success');
@@ -52,7 +46,6 @@ function initializeComponents() {
    }
 }
 
-loadProjectsFromStorage();
 
 window.addEventListener('scroll', () => {
    const header = document.querySelector('header');

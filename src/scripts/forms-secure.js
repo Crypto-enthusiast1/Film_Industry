@@ -3,11 +3,11 @@ import { closeModal } from './modal.js';
 
 
 const CONFIG = {
-   WEB3FORMS_ACCESS_KEY: "8a1437ed-efe7-4b6a-862c-3c2aeaea9849",
-   AIRTABLE_BASE_ID: "appG9Cz7ObB9Btl73",
+   WEB3FORMS_ACCESS_KEY: process.env.WEB3FORMS_ACCESS_KEY,
+   AIRTABLE_BASE_ID: process.env.AIRTABLE_BASE_ID,
    AIRTABLE_TABLE_NAME: 'Applications',
-   AIRTABLE_API_KEY: "patVGCN4AQr2Meyjg.2603f9a2f1ce28fa7e2f16e290c22bf51cfca78454073ee4aad4c3aa22181f26",
-   YOUR_EMAIL: 'andrei28123@gmail.com'
+   AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
+   YOUR_EMAIL: process.env.EMAIL_ADDRESS
 };
 
 // Send email via Web3Forms with CORS workaround

@@ -1,27 +1,33 @@
-import ProjectsData from './projects_data.js';
+import { loadProjectsData } from './firebase-data.js';
 
+let ProjectsData = [];
 let currentSlide = 0;
 let carouselTimer = null;
 let isCarouselPaused = false;
 
+// Определяем, сколько карточек видно сразу
 export function getVisibleSlides() {
-   const width = window.innerWidth;
-   if (width >= 1200) return 4;
-   if (width >= 900) return 3;
-   if (width >= 600) return 2;
+   const w = window.innerWidth;
+   if (w >= 1200) return 4;
+   if (w >= 900) return 3;
+   if (w >= 600) return 2;
    return 1;
 }
 
+// Пересчитываем ширину контейнера карусели
 function calculateContainerWidth() {
-   const visibleSlides = getVisibleSlides();
+   const visible = getVisibleSlides();
    const cardWidth = 280;
    const gap = 24;
-
-   const totalWidth = (visibleSlides * cardWidth) + ((visibleSlides - 1) * gap);
-   return totalWidth;
+   return (visible * cardWidth) + ((visible - 1) * gap);
 }
 
-export function loadProjects() {
+// Загружаем данные и создаём карточки
+export async function loadProjects() {
+   if (ProjectsData.length === 0) {
+      ProjectsData = await loadProjectsData();
+   }
+
    const carousel = document.getElementById('projects-carousel');
    const indicators = document.getElementById('carousel-indicators');
    if (!carousel || !indicators) return;
@@ -29,223 +35,121 @@ export function loadProjects() {
    carousel.innerHTML = '';
    indicators.innerHTML = '';
 
-   const containerWidth = calculateContainerWidth();
-   carousel.style.maxWidth = `${containerWidth}px`;
+   // Ограничиваем максимальную ширину
+   carousel.style.maxWidth = `${calculateContainerWidth()}px`;
 
-   ProjectsData.forEach((project) => {
-      const projectCard = document.createElement('div');
-      projectCard.className = 'project-card';
+   ProjectsData.forEach(project => {
+      const card = document.createElement('div');
+      card.className = 'project-card';
 
+      // Видео или плейсхолдер
       const mediaHTML = project.video
-         ? `
-        <div class="video-container">
-          <video class="project-video" autoplay muted loop preload="auto" >
-            <source src="${project.video}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div class="video-overlay"><i data-feather="play-circle" class="play-icon"></i></div>
-        </div>`
-         : `
-        <div class="aspect-w-16 aspect-h-9 bg-gray-700 flex items-center justify-center h-56 rounded-t-lg">
-                <i data-feather="image" class="w-20 h-20 text-gray-500"></i>
-            </div>`;
+         ? `<div class="video-container">
+           <video class="project-video" autoplay muted loop preload="auto">
+             <source src="${project.video}" type="video/mp4">
+           </video>
+           <div class="video-overlay"><i data-feather="play-circle" class="play-icon"></i></div>
+         </div>`
+         : `<div class="aspect-w-16 aspect-h-9 bg-gray-700 flex items-center justify-center h-56 rounded-t-lg">
+           <i data-feather="image" class="w-20 h-20 text-gray-500"></i>
+         </div>`;
 
-      projectCard.innerHTML = `
+      card.innerHTML = `
       ${mediaHTML}
       <div class="p-6">
         <h3 class="text-xl font-bold mb-2 text-black">${project.title}</h3>
         <p class="text-black mb-4">${project.genre} | Shooting in ${project.location}</p>
         <button onclick="openModal('${project.id}')" class="project-btn">Learn More</button>
-      </div>
-    `;
-      carousel.appendChild(projectCard);
+      </div>`;
 
-      // Обработка видео при hover
+      carousel.appendChild(card);
+
+      // Управление видео при hover
       if (project.video) {
-         const video = projectCard.querySelector('.project-video');
-         const overlay = projectCard.querySelector('.video-overlay');
-         projectCard.addEventListener('mouseenter', () => {
-            video.play();
-            overlay.style.opacity = '0';
-         });
-         projectCard.addEventListener('mouseleave', () => {
-            video.pause();
-            video.currentTime = 0;
-            overlay.style.opacity = '1';
-         });
-         overlay.addEventListener('click', () => openModal(project.id));
+         const vid = card.querySelector('.project-video');
+         const ov = card.querySelector('.video-overlay');
+         card.addEventListener('mouseenter', () => { vid.play(); ov.style.opacity = '0'; });
+         card.addEventListener('mouseleave', () => { vid.pause(); vid.currentTime = 0; ov.style.opacity = '1'; });
+         ov.addEventListener('click', () => openModal(project.id));
       }
    });
 
-   // Создание индикаторов
-   const visibleSlides = getVisibleSlides();
-   const totalIndicators = Math.max(1, ProjectsData.length - visibleSlides + 1);
-   for (let i = 0; i < totalIndicators; i++) {
-      const indicator = document.createElement('button');
-      indicator.className = `carousel-indicator ${i === 0 ? 'active' : ''}`;
-      indicator.onclick = () => goToSlide(i);
-      indicators.appendChild(indicator);
+   // Создаём индикаторы
+   const visible = getVisibleSlides();
+   const total = Math.max(1, ProjectsData.length - visible + 1);
+   for (let i = 0; i < total; i++) {
+      const btn = document.createElement('button');
+      btn.className = `carousel-indicator ${i === 0 ? 'active' : ''}`;
+      btn.onclick = () => goToSlide(i);
+      indicators.appendChild(btn);
    }
 
    updateCarouselPosition();
-   feather.replace();
+   if (typeof feather !== 'undefined') feather.replace();
 }
 
-
+// Обновление позиции карусели
 export function updateCarouselPosition() {
    const carousel = document.getElementById('projects-carousel');
    if (!carousel) return;
+   const translate = -(currentSlide * (280 + 24));
+   carousel.style.transform = `translateX(${translate}px)`;
 
-   const card = carousel.querySelector('.project-card');
-   if (!card) return;
-
-   const cardWidth = 280; // Фиксированная ширина из CSS
-   const gap = 24; // Gap между карточками из CSS
-
-   const totalWidth = cardWidth + gap;
-   const translateX = -(currentSlide * totalWidth);
-
-   carousel.style.transform = `translateX(${translateX}px)`;
-
-   const indicators = document.querySelectorAll('.carousel-indicator');
-   indicators.forEach((indicator, i) => {
-      indicator.classList.toggle('active', i === currentSlide);
+   document.querySelectorAll('.carousel-indicator').forEach((ind, i) => {
+      ind.classList.toggle('active', i === currentSlide);
    });
 }
 
+// Переход к указанному слайду
 export function goToSlide(index) {
-   const visibleSlides = getVisibleSlides();
-   const maxSlide = Math.max(0, ProjectsData.length - visibleSlides);
-
-   // ограничиваем слайд в пределах допустимого диапазона
-   currentSlide = Math.max(0, Math.min(index, maxSlide));
-
+   const visible = getVisibleSlides();
+   const max = Math.max(0, ProjectsData.length - visible);
+   currentSlide = Math.min(Math.max(0, index), max);
    updateCarouselPosition();
 }
 
-// ИСПРАВЛЕНО: используем фиксированные значения
-export function nextSlide() {
-   const visibleSlides = getVisibleSlides();
-   const maxSlide = Math.max(0, ProjectsData.length - visibleSlides);
+// Следующий и предыдущий слайд
+export function nextSlide() { goToSlide(currentSlide + 1); }
+export function previousSlide() { goToSlide(currentSlide - 1); }
 
-   if (currentSlide >= maxSlide) {
-      currentSlide = 0; // в начало
-   } else {
-      currentSlide++;
-   }
-
-   updateCarouselPosition();
-}
-
-// ИСПРАВЛЕНО: используем фиксированные значения
-export function previousSlide() {
-   const visibleSlides = getVisibleSlides();
-   const maxSlide = Math.max(0, ProjectsData.length - visibleSlides);
-
-   if (currentSlide <= 0) {
-      currentSlide = maxSlide; // в конец
-   } else {
-      currentSlide--;
-   }
-
-   updateCarouselPosition();
-}
-
+// Автопрокрутка
 export function startCarouselAutoplay() {
-   if (carouselTimer) clearInterval(carouselTimer);
-
+   clearInterval(carouselTimer);
    carouselTimer = setInterval(() => {
-      if (!isCarouselPaused) {
-         nextSlide();
-      }
+      if (!isCarouselPaused) nextSlide();
    }, 5000);
 }
+export function pauseCarousel() { isCarouselPaused = true; }
+export function resumeCarousel() { isCarouselPaused = false; }
 
-export function pauseCarousel() {
-   isCarouselPaused = true;
-}
-
-export function resumeCarousel() {
-   isCarouselPaused = false;
-}
-
-// ИСПРАВЛЕНО: добавлена функция пересчета при ресайзе
-function handleResize() {
-   // Пересчитываем ширину контейнера при изменении размера окна
-   const carousel = document.getElementById('projects-carousel');
-   if (carousel) {
-      const containerWidth = calculateContainerWidth();
-      carousel.style.maxWidth = `${containerWidth}px`;
-   }
-
-   // Сбрасываем позицию карусели
-   currentSlide = 0;
-   updateCarouselPosition();
-
-   // Пересоздаем индикаторы
-   const indicators = document.getElementById('carousel-indicators');
-   if (indicators) {
-      indicators.innerHTML = '';
-      const visibleSlides = getVisibleSlides();
-      const totalIndicators = Math.max(1, ProjectsData.length - visibleSlides + 1);
-
-      for (let i = 0; i < totalIndicators; i++) {
-         const indicator = document.createElement('button');
-         indicator.className = `carousel-indicator ${i === 0 ? 'active' : ''}`;
-         indicator.onclick = () => goToSlide(i);
-         indicators.appendChild(indicator);
-      }
-   }
-}
-
-// Добавьте в initCarousel() поддержку свайпа для мобильных устройств
-
+// Инициализация карусели: кнопки, hover, swipe и ресайз
 export function initCarousel() {
-   const prevBtn = document.getElementById('carousel-prev');
-   const nextBtn = document.getElementById('carousel-next');
+   document.getElementById('carousel-prev')?.addEventListener('click', () => { previousSlide(); pauseCarousel(); });
+   document.getElementById('carousel-next')?.addEventListener('click', () => { nextSlide(); pauseCarousel(); });
    const viewport = document.querySelector('.carousel-viewport');
-
-   // Навигация стрелками
-   prevBtn?.addEventListener('click', () => { previousSlide(); pauseCarousel(); });
-   nextBtn?.addEventListener('click', () => { nextSlide(); pauseCarousel(); });
-
-   // Пауза/возобновление при hover (desktop)
    viewport?.addEventListener('mouseenter', pauseCarousel);
    viewport?.addEventListener('mouseleave', resumeCarousel);
 
-   // Свайп для touch-устройств
-   let startX = 0;
-   let isSwiping = false;
-
-   viewport?.addEventListener('touchstart', e => {
-      startX = e.touches[0].clientX;
-      isSwiping = true;
-      pauseCarousel();
-   }, { passive: true });
-
-   viewport?.addEventListener('touchmove', e => {
-      if (!isSwiping) return;
-      const diff = e.touches[0].clientX - startX;
-      if (Math.abs(diff) > 10) e.preventDefault(); // блокируем скролл страницы
-   }, { passive: false });
-
+   // Swipe для мобильных
+   let startX = 0, swiping = false;
+   viewport?.addEventListener('touchstart', e => { startX = e.touches[0].clientX; swiping = true; pauseCarousel(); }, { passive: true });
+   viewport?.addEventListener('touchmove', e => { if (swiping && Math.abs(e.touches[0].clientX - startX) > 10) e.preventDefault(); }, { passive: false });
    viewport?.addEventListener('touchend', e => {
-      if (!isSwiping) return;
-      const endX = e.changedTouches[0].clientX;
-      const diff = endX - startX;
-      isSwiping = false;
-      resumeCarousel();
-
-      if (Math.abs(diff) > 50) {
-         diff < 0 ? nextSlide() : previousSlide();
-      }
+      if (!swiping) return;
+      swiping = false; resumeCarousel();
+      const diff = e.changedTouches[0].clientX - startX;
+      if (Math.abs(diff) > 50) diff < 0 ? nextSlide() : previousSlide();
    });
 
-   // Пересчёт при ресайзе
+   // При изменении окна — пересчитать
    let resizeTimeout;
    window.addEventListener('resize', () => {
       clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(handleResize, 250);
+      resizeTimeout = setTimeout(() => {
+         currentSlide = 0;
+         loadProjects();
+         initCarousel();
+         startCarouselAutoplay();
+      }, 250);
    });
 }
-

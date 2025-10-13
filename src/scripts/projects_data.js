@@ -1,8 +1,9 @@
+
 const ProjectsData = [
    {
       id: 'italy',
       title: 'Russians\' adventures in Italy',
-      genre: 'Horror',
+      genre: 'Thriller',
       location: 'Bruxelles, Belgium',
       description: 'A Russian man has turned the head of a rich woman. And to get her and her money into his hands, he hires a hero in the clutches of the 2 Chechen and Abkhaz wars.So that he kills his mistress\'s husband.But killing a lawyer is not the same as killing innocent children in Grozny.',
       sujet: `EXT. PARK – DAY
@@ -534,5 +535,6 @@ The guard up front shouts. The line marches through the ruined street. At a big 
    },
 
 ];
+
 
 export default ProjectsData;
