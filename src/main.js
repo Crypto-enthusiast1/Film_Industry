@@ -52,10 +52,13 @@ window.addEventListener('scroll', () => {
    header.classList.toggle('bg-opacity-95', window.scrollY > 100);
 });
 
-const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver((entries, obs) => {
    entries.forEach(entry => {
       if (entry.isIntersecting) {
-         entry.target.classList.add('animate-fade-in-up');
+         const el = entry.target;
+         el.classList.remove('opacity-0', 'translate-y-5');
+         el.classList.add('animate-fade-in-up');
+         obs.unobserve(el);
       }
    });
 }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
@@ -64,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
    document.querySelectorAll('.step-number, h2, h3, .benefit-card, .sponsor-package')
       .forEach(el => observer.observe(el));
 });
+
 
 const debouncedScrollHandler = debounce(() => { }, 16);
 window.addEventListener('scroll', debouncedScrollHandler);
