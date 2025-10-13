@@ -5,7 +5,6 @@ let currentSlide = 0;
 let carouselTimer = null;
 let isCarouselPaused = false;
 
-// Определяем, сколько карточек видно сразу
 export function getVisibleSlides() {
    const w = window.innerWidth;
    if (w >= 1200) return 4;
@@ -14,7 +13,6 @@ export function getVisibleSlides() {
    return 1;
 }
 
-// Пересчитываем ширину контейнера карусели
 function calculateContainerWidth() {
    const visible = getVisibleSlides();
    const cardWidth = 280;
@@ -22,7 +20,6 @@ function calculateContainerWidth() {
    return (visible * cardWidth) + ((visible - 1) * gap);
 }
 
-// Загружаем данные и создаём карточки
 export async function loadProjects() {
    if (ProjectsData.length === 0) {
       ProjectsData = await loadProjectsData();
@@ -35,17 +32,15 @@ export async function loadProjects() {
    carousel.innerHTML = '';
    indicators.innerHTML = '';
 
-   // Ограничиваем максимальную ширину
    carousel.style.maxWidth = `${calculateContainerWidth()}px`;
 
    ProjectsData.forEach(project => {
       const card = document.createElement('div');
       card.className = 'project-card';
 
-      // Видео или плейсхолдер
       const mediaHTML = project.video
          ? `<div class="video-container">
-           <video class="project-video" autoplay muted loop preload="auto">
+           <video class="project-video" autoplay muted loop playsinline preload="metadata">
              <source src="${project.video}" type="video/mp4">
            </video>
            <div class="video-overlay"><i data-feather="play-circle" class="play-icon"></i></div>
@@ -64,7 +59,6 @@ export async function loadProjects() {
 
       carousel.appendChild(card);
 
-      // Управление видео при hover
       if (project.video) {
          const vid = card.querySelector('.project-video');
          const ov = card.querySelector('.video-overlay');
@@ -74,7 +68,6 @@ export async function loadProjects() {
       }
    });
 
-   // Создаём индикаторы
    const visible = getVisibleSlides();
    const total = Math.max(1, ProjectsData.length - visible + 1);
    for (let i = 0; i < total; i++) {
@@ -88,7 +81,6 @@ export async function loadProjects() {
    if (typeof feather !== 'undefined') feather.replace();
 }
 
-// Обновление позиции карусели
 export function updateCarouselPosition() {
    const carousel = document.getElementById('projects-carousel');
    if (!carousel) return;
@@ -100,7 +92,6 @@ export function updateCarouselPosition() {
    });
 }
 
-// Переход к указанному слайду
 export function goToSlide(index) {
    const visible = getVisibleSlides();
    const max = Math.max(0, ProjectsData.length - visible);
@@ -108,11 +99,32 @@ export function goToSlide(index) {
    updateCarouselPosition();
 }
 
-// Следующий и предыдущий слайд
-export function nextSlide() { goToSlide(currentSlide + 1); }
-export function previousSlide() { goToSlide(currentSlide - 1); }
+export function nextSlide() {
+   const visibleSlides = getVisibleSlides();
+   const maxSlide = Math.max(0, ProjectsData.length - visibleSlides);
 
-// Автопрокрутка
+   if (currentSlide >= maxSlide) {
+      currentSlide = 0;
+   } else {
+      currentSlide++;
+   }
+
+   updateCarouselPosition();
+}
+
+export function previousSlide() {
+   const visibleSlides = getVisibleSlides();
+   const maxSlide = Math.max(0, ProjectsData.length - visibleSlides);
+
+   if (currentSlide <= 0) {
+      currentSlide = maxSlide;
+   } else {
+      currentSlide--;
+   }
+
+   updateCarouselPosition();
+}
+
 export function startCarouselAutoplay() {
    clearInterval(carouselTimer);
    carouselTimer = setInterval(() => {
@@ -122,7 +134,6 @@ export function startCarouselAutoplay() {
 export function pauseCarousel() { isCarouselPaused = true; }
 export function resumeCarousel() { isCarouselPaused = false; }
 
-// Инициализация карусели: кнопки, hover, swipe и ресайз
 export function initCarousel() {
    document.getElementById('carousel-prev')?.addEventListener('click', () => { previousSlide(); pauseCarousel(); });
    document.getElementById('carousel-next')?.addEventListener('click', () => { nextSlide(); pauseCarousel(); });
@@ -130,7 +141,6 @@ export function initCarousel() {
    viewport?.addEventListener('mouseenter', pauseCarousel);
    viewport?.addEventListener('mouseleave', resumeCarousel);
 
-   // Swipe для мобильных
    let startX = 0, swiping = false;
    viewport?.addEventListener('touchstart', e => { startX = e.touches[0].clientX; swiping = true; pauseCarousel(); }, { passive: true });
    viewport?.addEventListener('touchmove', e => { if (swiping && Math.abs(e.touches[0].clientX - startX) > 10) e.preventDefault(); }, { passive: false });
@@ -141,7 +151,6 @@ export function initCarousel() {
       if (Math.abs(diff) > 50) diff < 0 ? nextSlide() : previousSlide();
    });
 
-   // При изменении окна — пересчитать
    let resizeTimeout;
    window.addEventListener('resize', () => {
       clearTimeout(resizeTimeout);
