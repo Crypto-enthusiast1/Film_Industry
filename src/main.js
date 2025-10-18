@@ -9,8 +9,8 @@ import { disableGoogleTranslateOverlay } from './scripts/disableGoogle.js';
 
 
 document.addEventListener('DOMContentLoaded', async () => {
-   await initModal();
    await loadProjects();
+   await initModal();
    feather.replace();
    initializeComponents();
    loadProjects();
@@ -26,12 +26,11 @@ function initializeComponents() {
    initModal();
    initCarousel();
 
-   // Web3Forms initialization
    if (typeof Web3Forms !== 'undefined') {
       Web3Forms({
          formSelector: '#sponsor-form, #contact-form, #project-application-form',
          access_key: process.env.WEB3FORMS_ACCESS_KEY,
-         redirect: false,          // отключаем редирект
+         redirect: false,
          onSuccess: ({ form }) => {
             showNotification('Заявка успешно отправлена!', 'success');
             form.reset();

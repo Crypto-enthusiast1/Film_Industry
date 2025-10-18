@@ -143,12 +143,21 @@ export function initCarousel() {
 
    let startX = 0, swiping = false;
    viewport?.addEventListener('touchstart', e => { startX = e.touches[0].clientX; swiping = true; pauseCarousel(); }, { passive: true });
-   viewport?.addEventListener('touchmove', e => { if (swiping && Math.abs(e.touches[0].clientX - startX) > 10) e.preventDefault(); }, { passive: false });
+   viewport?.addEventListener('touchmove', e => {
+      if (!swiping) return;
+      const diff = e.touches[0].clientX - startX;
+      if (Math.abs(diff) > 10) e.preventDefault();
+   }, { passive: false });
    viewport?.addEventListener('touchend', e => {
       if (!swiping) return;
-      swiping = false; resumeCarousel();
-      const diff = e.changedTouches[0].clientX - startX;
-      if (Math.abs(diff) > 50) diff < 0 ? nextSlide() : previousSlide();
+      const endX = e.changedTouches[0].clientX;
+      const diff = endX - startX;
+      swiping = false;
+      resumeCarousel();
+
+      if (Math.abs(diff) > 50) {
+         diff < 0 ? nextSlide() : previousSlide();
+      }
    });
 
    let resizeTimeout;

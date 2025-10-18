@@ -21,3 +21,6 @@ Thumbs.db
 
 # Parcel cache
 .parcel-cache/
+
+#DB
+projects_data.js
