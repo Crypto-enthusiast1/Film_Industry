@@ -257,7 +257,7 @@ export function initForms() {
          e.preventDefault();
 
          const formType = this.id;
-         const submitBtn = this.querySelector('button[type="submit"]');
+         const submitBtn = e.submitter || this.querySelector('button');
          const originalText = submitBtn.innerHTML;
 
          // Show loading state
