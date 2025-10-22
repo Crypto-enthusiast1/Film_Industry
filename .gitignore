@@ -24,3 +24,6 @@ Thumbs.db
 
 #DB
 projects_data.js
+exportDBfromFirebase.js
+firestore - backup.json
+serviceAccountKey.json

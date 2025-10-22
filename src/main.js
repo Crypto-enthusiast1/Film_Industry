@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', async () => {
    loadProjects();
    startCarouselAutoplay();
    disableGoogleTranslateOverlay();
+   initForms();
 });
 
 function initializeComponents() {
    initMobileMenu();
    initSmoothScrolling();
    initBackToTop();
-   initForms();
    initModal();
    initCarousel();
 
